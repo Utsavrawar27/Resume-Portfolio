@@ -11,8 +11,8 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2015, "month": 7},
-                    "dateEnd": {"year": 2019, "month": 5},
+                    "dateStart": {"year": 2015, "month": 6},
+                    "dateEnd": {"year": 2019, "month": 4},
                     "img": "images/places/DIT-University.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -58,8 +58,8 @@
 
                 {
                     "id": 2,
-                    "dateStart": {"year": 2022, "month": 8},
-                    "dateEnd": {"year": 2024, "month": 5},
+                    "dateStart": {"year": 2022, "month": 7},
+                    "dateEnd": {"year": 2024, "month": 4},
                     "img": "images/places/SJSU.jpg",
                     "fallbackFaIcon": "fa-solid fa-laptop-code",
                     "fallbackFaIconColor": "#140f29",

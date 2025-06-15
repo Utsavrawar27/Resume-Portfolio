@@ -11,7 +11,7 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2023, "month": 8},
+                    "dateStart": {"year": 2023, "month": 7},
                     "dateEnd": {"string": "now"},
                     "img": "images/places/logo-morgan-stanley.jpg",
                     "fallbackFaIcon": "fa-solid fa-building",
@@ -107,7 +107,7 @@
                 {
                     "id": 2,
                     "dateStart": {"year": 2019, "month": 3},
-                    "dateEnd": {"year": 2022, "month": 7},
+                    "dateEnd": {"year": 2022, "month": 6},
                     "img": "images/places/logo-zensar.png",
                     "fallbackFaIcon": "fa-solid fa-code",
                     "fallbackFaIconColor": "#FF6B35",
