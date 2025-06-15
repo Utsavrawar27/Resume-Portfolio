@@ -1,0 +1,354 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": null,
+                    "category_all": "All",
+                    "category_fintech": "FinTech",
+                    "category_ai": "AI/ML",
+                    "category_dataeng": "Data Engineering", 
+                    "category_enterprise": "Enterprise",
+                    "category_cloud": "Cloud/DevOps"
+                },
+
+                "es": {
+                    "title": null,
+                    "category_all": "Todos",
+                    "category_fintech": "FinTech",
+                    "category_ai": "IA/ML",
+                    "category_dataeng": "Ingeniería de Datos",
+                    "category_enterprise": "Empresarial",
+                    "category_cloud": "Nube/DevOps"
+                },
+
+                "fr": {
+                    "title": null,
+                    "category_all": "Tous",
+                    "category_fintech": "FinTech",
+                    "category_ai": "IA/ML",
+                    "category_dataeng": "Ingénierie des Données",
+                    "category_enterprise": "Entreprise",
+                    "category_cloud": "Cloud/DevOps"
+                },
+
+                "zh": {
+                    "title": null,
+                    "category_all": "全部",
+                    "category_fintech": "金融科技",
+                    "category_ai": "人工智能/机器学习",
+                    "category_dataeng": "数据工程",
+                    "category_enterprise": "企业应用",
+                    "category_cloud": "云计算/DevOps"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-chart-line",
+                    "fallbackFaIconColor": "#2E8B57",
+                    "category": "fintech",
+                    "locales": {
+                        "en": {
+                            "title": "Finance Management System",
+                            "description": "A comprehensive <b>personal finance management platform</b> built with Java Spring Boot and PostgreSQL. Features include expense tracking, budget planning, financial goal setting, and detailed analytics dashboards. Implements secure authentication with JWT, real-time transaction processing, and automated report generation. Designed with responsive UI and RESTful APIs for seamless user experience.",
+                            "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT", "REST API", "Financial Analytics"]
+                        },
+                        "es": {
+                            "description": "Una plataforma integral de <b>gestión de finanzas personales</b> construida con Java Spring Boot y PostgreSQL. Incluye seguimiento de gastos, planificación presupuestaria, establecimiento de objetivos financieros y paneles de análisis detallados. Implementa autenticación segura con JWT, procesamiento de transacciones en tiempo real y generación automatizada de informes.",
+                            "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT", "API REST", "Análisis Financiero"]
+                        },
+                        "fr": {
+                            "description": "Une plateforme complète de <b>gestion financière personnelle</b> construite avec Java Spring Boot et PostgreSQL. Comprend le suivi des dépenses, la planification budgétaire, la définition d'objectifs financiers et des tableaux de bord analytiques détaillés. Implémente une authentification sécurisée avec JWT, le traitement des transactions en temps réel et la génération automatisée de rapports.",
+                            "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT", "API REST", "Analyses Financières"]
+                        },
+                        "zh": {
+                            "description": "使用 Java Spring Boot 和 PostgreSQL 构建的综合<b>个人财务管理平台</b>。功能包括支出跟踪、预算规划、财务目标设定和详细的分析仪表板。实现了 JWT 安全认证、实时交易处理和自动报告生成。",
+                            "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT", "REST API", "财务分析"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/Finance-Management-System", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 2,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-brain",
+                    "fallbackFaIconColor": "#FF6347",
+                    "category": "ai",
+                    "locales": {
+                        "en": {
+                            "title": "AI SaaS Tool Gateway",
+                            "description": "A robust <b>AI-powered gateway service</b> that provides unified access to multiple AI providers (OpenAI, Azure, Anthropic). Built with modern microservices architecture featuring load balancing, automatic retries, and intelligent routing. Includes rate limiting, usage analytics, and enterprise-grade security with API key management and monitoring dashboards.",
+                            "tags": ["AI/ML", "Gateway", "Microservices", "Load Balancing", "OpenAI", "Enterprise SaaS"]
+                        },
+                        "es": {
+                            "description": "Un <b>servicio de gateway impulsado por IA</b> robusto que proporciona acceso unificado a múltiples proveedores de IA (OpenAI, Azure, Anthropic). Construido con arquitectura de microservicios moderna que incluye balanceador de carga, reintentos automáticos y enrutamiento inteligente.",
+                            "tags": ["IA/ML", "Gateway", "Microservicios", "Balanceador de Carga", "OpenAI", "SaaS Empresarial"]
+                        },
+                        "fr": {
+                            "description": "Un <b>service de passerelle alimenté par l'IA</b> robuste qui fournit un accès unifié à plusieurs fournisseurs d'IA (OpenAI, Azure, Anthropic). Construit avec une architecture de microservices moderne comprenant l'équilibrage de charge, les tentatives automatiques et le routage intelligent.",
+                            "tags": ["IA/ML", "Passerelle", "Microservices", "Équilibrage de Charge", "OpenAI", "SaaS Entreprise"]
+                        },
+                        "zh": {
+                            "description": "一个强大的<b>AI驱动的网关服务</b>，提供对多个AI供应商（OpenAI、Azure、Anthropic）的统一访问。采用现代微服务架构，具备负载均衡、自动重试和智能路由功能。",
+                            "tags": ["人工智能/机器学习", "网关", "微服务", "负载均衡", "OpenAI", "企业SaaS"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/AI-SaaS-Tool-Gateway", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 3,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-video",
+                    "fallbackFaIconColor": "#FF0000",
+                    "category": "dataeng",
+                    "locales": {
+                        "en": {
+                            "title": "YouTube Analysis Data Engineering",
+                            "description": "A scalable <b>data engineering pipeline</b> for YouTube analytics using AWS services. Implements ETL processes with AWS Glue, data storage in S3, real-time processing with Lambda, and visualization through QuickSight. Features automated data ingestion, sentiment analysis of comments, trending video analysis, and comprehensive reporting dashboards.",
+                            "tags": ["AWS", "Data Engineering", "ETL", "S3", "Glue", "Lambda", "QuickSight"]
+                        },
+                        "es": {
+                            "description": "Un <b>pipeline de ingeniería de datos</b> escalable para análisis de YouTube utilizando servicios de AWS. Implementa procesos ETL con AWS Glue, almacenamiento de datos en S3, procesamiento en tiempo real con Lambda y visualización a través de QuickSight.",
+                            "tags": ["AWS", "Ingeniería de Datos", "ETL", "S3", "Glue", "Lambda", "QuickSight"]
+                        },
+                        "fr": {
+                            "description": "Un <b>pipeline d'ingénierie des données</b> évolutif pour l'analyse YouTube utilisant les services AWS. Implémente des processus ETL avec AWS Glue, stockage de données dans S3, traitement en temps réel avec Lambda et visualisation via QuickSight.",
+                            "tags": ["AWS", "Ingénierie des Données", "ETL", "S3", "Glue", "Lambda", "QuickSight"]
+                        },
+                        "zh": {
+                            "description": "使用AWS服务构建的可扩展<b>数据工程管道</b>，用于YouTube分析。通过AWS Glue实现ETL过程，在S3中存储数据，使用Lambda进行实时处理，并通过QuickSight进行可视化。",
+                            "tags": ["AWS", "数据工程", "ETL", "S3", "Glue", "Lambda", "QuickSight"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/YouTube-Analysis-Project-Data-Engineering", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 4,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-file-text",
+                    "fallbackFaIconColor": "#4169E1",
+                    "category": "ai",
+                    "locales": {
+                        "en": {
+                            "title": "Document Reader OpenAI",
+                            "description": "An intelligent <b>document processing application</b> powered by OpenAI APIs. Features advanced OCR capabilities, text extraction from PDFs and images, automated summarization, and natural language querying. Supports multiple document formats with real-time processing and secure cloud storage integration.",
+                            "tags": ["OpenAI", "OCR", "Document Processing", "NLP", "Text Extraction", "AI"]
+                        },
+                        "es": {
+                            "description": "Una <b>aplicación de procesamiento de documentos</b> inteligente impulsada por las APIs de OpenAI. Cuenta con capacidades avanzadas de OCR, extracción de texto de PDFs e imágenes, resumen automatizado y consultas en lenguaje natural.",
+                            "tags": ["OpenAI", "OCR", "Procesamiento de Documentos", "PLN", "Extracción de Texto", "IA"]
+                        },
+                        "fr": {
+                            "description": "Une <b>application de traitement de documents</b> intelligente alimentée par les APIs OpenAI. Comprend des capacités OCR avancées, l'extraction de texte des PDF et images, la synthèse automatisée et les requêtes en langage naturel.",
+                            "tags": ["OpenAI", "OCR", "Traitement de Documents", "TAL", "Extraction de Texte", "IA"]
+                        },
+                        "zh": {
+                            "description": "由OpenAI API驱动的智能<b>文档处理应用程序</b>。具备先进的OCR功能、PDF和图像文本提取、自动摘要和自然语言查询功能。",
+                            "tags": ["OpenAI", "OCR", "文档处理", "自然语言处理", "文本提取", "人工智能"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/Document_Reader_OpenAI", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 5,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-users",
+                    "fallbackFaIconColor": "#32CD32",
+                    "category": "enterprise",
+                    "locales": {
+                        "en": {
+                            "title": "Easy HR App",
+                            "description": "A comprehensive <b>Human Resource Management System</b> built with modern web technologies. Features employee management, attendance tracking, payroll processing, leave management, and performance evaluations. Includes role-based access control, automated workflows, and detailed reporting for HR analytics.",
+                            "tags": ["HR Management", "Employee Management", "Payroll", "Attendance", "Workflow Automation"]
+                        },
+                        "es": {
+                            "description": "Un <b>Sistema de Gestión de Recursos Humanos</b> integral construido con tecnologías web modernas. Incluye gestión de empleados, seguimiento de asistencia, procesamiento de nóminas, gestión de licencias y evaluaciones de desempeño.",
+                            "tags": ["Gestión de RRHH", "Gestión de Empleados", "Nómina", "Asistencia", "Automatización de Flujos"]
+                        },
+                        "fr": {
+                            "description": "Un <b>Système de Gestion des Ressources Humaines</b> complet construit avec des technologies web modernes. Comprend la gestion des employés, le suivi des présences, le traitement de la paie, la gestion des congés et les évaluations de performance.",
+                            "tags": ["Gestion RH", "Gestion des Employés", "Paie", "Présence", "Automatisation des Flux"]
+                        },
+                        "zh": {
+                            "description": "使用现代Web技术构建的综合<b>人力资源管理系统</b>。功能包括员工管理、考勤跟踪、工资处理、请假管理和绩效评估。",
+                            "tags": ["人力资源管理", "员工管理", "工资单", "考勤", "工作流自动化"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/easy-hr-app", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 6,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-kiwi-bird",
+                    "fallbackFaIconColor": "#FF69B4",
+                    "category": "enterprise",
+                    "locales": {
+                        "en": {
+                            "title": "Kitee App",
+                            "description": "A modern <b>social productivity application</b> designed for team collaboration and task management. Features real-time messaging, project boards, file sharing, and integrated video conferencing. Built with responsive design and cross-platform compatibility for seamless team communication.",
+                            "tags": ["Team Collaboration", "Real-time Messaging", "Project Management", "Video Conferencing"]
+                        },
+                        "es": {
+                            "description": "Una <b>aplicación de productividad social</b> moderna diseñada para la colaboración en equipo y gestión de tareas. Incluye mensajería en tiempo real, tableros de proyectos, intercambio de archivos y videoconferencias integradas.",
+                            "tags": ["Colaboración en Equipo", "Mensajería en Tiempo Real", "Gestión de Proyectos", "Videoconferencias"]
+                        },
+                        "fr": {
+                            "description": "Une <b>application de productivité sociale</b> moderne conçue pour la collaboration d'équipe et la gestion des tâches. Comprend la messagerie en temps réel, les tableaux de projet, le partage de fichiers et la visioconférence intégrée.",
+                            "tags": ["Collaboration d'Équipe", "Messagerie Temps Réel", "Gestion de Projets", "Visioconférence"]
+                        },
+                        "zh": {
+                            "description": "专为团队协作和任务管理设计的现代<b>社交生产力应用程序</b>。功能包括实时消息传递、项目看板、文件共享和集成视频会议。",
+                            "tags": ["团队协作", "实时消息", "项目管理", "视频会议"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/kitee-app", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 7,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-bus",
+                    "fallbackFaIconColor": "#FFD700",
+                    "category": "enterprise",
+                    "locales": {
+                        "en": {
+                            "title": "Bus Application SJSU",
+                            "description": "A smart <b>campus transportation system</b> for San Jose State University. Features real-time bus tracking, route optimization, arrival predictions, and mobile notifications. Includes interactive maps, schedule management, and analytics dashboard for transportation administrators.",
+                            "tags": ["Transportation", "Real-time Tracking", "Mobile App", "Route Optimization", "Campus System"]
+                        },
+                        "es": {
+                            "description": "Un <b>sistema de transporte de campus</b> inteligente para la Universidad Estatal de San José. Incluye seguimiento de autobuses en tiempo real, optimización de rutas, predicciones de llegada y notificaciones móviles.",
+                            "tags": ["Transporte", "Seguimiento en Tiempo Real", "App Móvil", "Optimización de Rutas", "Sistema de Campus"]
+                        },
+                        "fr": {
+                            "description": "Un <b>système de transport de campus</b> intelligent pour l'Université d'État de San José. Comprend le suivi des bus en temps réel, l'optimisation des itinéraires, les prédictions d'arrivée et les notifications mobiles.",
+                            "tags": ["Transport", "Suivi Temps Réel", "App Mobile", "Optimisation des Itinéraires", "Système Campus"]
+                        },
+                        "zh": {
+                            "description": "为圣何塞州立大学设计的智能<b>校园交通系统</b>。功能包括实时公交跟踪、路线优化、到达预测和移动通知。",
+                            "tags": ["交通运输", "实时跟踪", "移动应用", "路线优化", "校园系统"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/Bus-Application-SJSU", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 8,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-cloud",
+                    "fallbackFaIconColor": "#87CEEB",
+                    "category": "cloud",
+                    "locales": {
+                        "en": {
+                            "title": "Reliable Storage Cloud Project",
+                            "description": "A distributed <b>cloud storage solution</b> with high availability and fault tolerance. Implements data replication, automatic failover, and load balancing across multiple nodes. Features encryption at rest and in transit, API-based access, and comprehensive monitoring for enterprise-grade reliability.",
+                            "tags": ["Cloud Storage", "Distributed Systems", "High Availability", "Fault Tolerance", "Data Encryption"]
+                        },
+                        "es": {
+                            "description": "Una <b>solución de almacenamiento en la nube</b> distribuida con alta disponibilidad y tolerancia a fallos. Implementa replicación de datos, conmutación automática por fallas y balanceador de carga en múltiples nodos.",
+                            "tags": ["Almacenamiento en Nube", "Sistemas Distribuidos", "Alta Disponibilidad", "Tolerancia a Fallos", "Cifrado de Datos"]
+                        },
+                        "fr": {
+                            "description": "Une <b>solution de stockage cloud</b> distribuée avec haute disponibilité et tolérance aux pannes. Implémente la réplication des données, le basculement automatique et l'équilibrage de charge sur plusieurs nœuds.",
+                            "tags": ["Stockage Cloud", "Systèmes Distribués", "Haute Disponibilité", "Tolérance aux Pannes", "Chiffrement des Données"]
+                        },
+                        "zh": {
+                            "description": "具有高可用性和容错性的分布式<b>云存储解决方案</b>。实现数据复制、自动故障转移和跨多个节点的负载均衡。",
+                            "tags": ["云存储", "分布式系统", "高可用性", "容错", "数据加密"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/Reliable-storage-CloudProject", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 9,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-hammer",
+                    "fallbackFaIconColor": "#8B4513",
+                    "category": "cloud",
+                    "locales": {
+                        "en": {
+                            "title": "Thrain",
+                            "description": "A powerful <b>development toolkit and CLI utility</b> for automating common development workflows. Features project scaffolding, dependency management, automated testing, and deployment scripts. Includes integration with popular CI/CD platforms and customizable templates for rapid development.",
+                            "tags": ["CLI Tool", "Development Toolkit", "Automation", "CI/CD", "Project Scaffolding"]
+                        },
+                        "es": {
+                            "description": "Un <b>kit de herramientas de desarrollo y utilidad CLI</b> potente para automatizar flujos de trabajo de desarrollo comunes. Incluye andamiaje de proyectos, gestión de dependencias, pruebas automatizadas y scripts de despliegue.",
+                            "tags": ["Herramienta CLI", "Kit de Desarrollo", "Automatización", "CI/CD", "Andamiaje de Proyectos"]
+                        },
+                        "fr": {
+                            "description": "Un <b>boîte à outils de développement et utilitaire CLI</b> puissant pour automatiser les flux de travail de développement courants. Comprend l'échafaudage de projets, la gestion des dépendances, les tests automatisés et les scripts de déploiement.",
+                            "tags": ["Outil CLI", "Boîte à Outils de Développement", "Automatisation", "CI/CD", "Échafaudage de Projets"]
+                        },
+                        "zh": {
+                            "description": "用于自动化常见开发工作流程的强大<b>开发工具包和CLI实用程序</b>。功能包括项目脚手架、依赖管理、自动化测试和部署脚本。",
+                            "tags": ["CLI工具", "开发工具包", "自动化", "CI/CD", "项目脚手架"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/thrain", "stringKey": "view_on_github"}
+                    ]
+                },
+
+                {
+                    "id": 10,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-tasks",
+                    "fallbackFaIconColor": "#FF4500",
+                    "category": "cloud",
+                    "locales": {
+                        "en": {
+                            "title": "Task Master DevOps Project",
+                            "description": "A comprehensive <b>DevOps automation platform</b> for task management and CI/CD pipeline orchestration. Features Docker containerization, Kubernetes deployment, automated testing, monitoring, and logging. Includes infrastructure as code, blue-green deployments, and comprehensive DevOps workflow management.",
+                            "tags": ["DevOps", "Kubernetes", "Docker", "CI/CD", "Infrastructure as Code", "Automation"]
+                        },
+                        "es": {
+                            "description": "Una <b>plataforma de automatización DevOps</b> integral para gestión de tareas y orquestación de pipelines CI/CD. Incluye contenedorización Docker, despliegue Kubernetes, pruebas automatizadas, monitoreo y registro.",
+                            "tags": ["DevOps", "Kubernetes", "Docker", "CI/CD", "Infraestructura como Código", "Automatización"]
+                        },
+                        "fr": {
+                            "description": "Une <b>plateforme d'automatisation DevOps</b> complète pour la gestion des tâches et l'orchestration des pipelines CI/CD. Comprend la conteneurisation Docker, le déploiement Kubernetes, les tests automatisés, la surveillance et la journalisation.",
+                            "tags": ["DevOps", "Kubernetes", "Docker", "CI/CD", "Infrastructure en tant que Code", "Automatisation"]
+                        },
+                        "zh": {
+                            "description": "用于任务管理和CI/CD管道编排的综合<b>DevOps自动化平台</b>。功能包括Docker容器化、Kubernetes部署、自动化测试、监控和日志记录。",
+                            "tags": ["DevOps", "Kubernetes", "Docker", "CI/CD", "基础设施即代码", "自动化"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Utsavrawar27/Task-Master-App-DevOps-Project", "stringKey": "view_on_github"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

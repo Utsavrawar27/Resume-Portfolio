@@ -1,0 +1,58 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleProfile",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_list_ids": ["address", "email", "phone"],
+                "contact_circles_ids": ["instagram", "linkedin", "github"]
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "description": "I’m a Java Full Stack Developer with <strong>5+ years</strong>, of experience building applications that power financial systems and e-commerce platforms, always with a focus on clean code, thoughtful design, and seamless user experiences. I'm a quick learner and always looking for new challenges to grow my skills."
+                        },
+
+                        "es": {
+                            "description": "Soy un desarrollador Full Stack Java con más de <strong>5 años</strong>, de experiencia creando aplicaciones que impulsan sistemas financieros y plataformas de comercio electrónico, siempre enfocado en escribir código limpio, diseñar con intención y ofrecer experiencias de usuario fluidas. Aprendo rápido y siempre estoy buscando nuevos desafíos para seguir creciendo profesionalmente."
+                        },
+
+                        "fr": {
+                            "description": "Je suis développeur Full Stack Java avec plus de <strong>5 ans</strong>, d’expérience dans la création d’applications pour les systèmes financiers et les plateformes e-commerce, en mettant toujours l’accent sur un code propre, un design réfléchi et une expérience utilisateur fluide. J'apprends vite et je suis toujours à la recherche de nouveaux défis pour développer mes compétences."
+                        },
+
+                        "zh": {
+                            "description": "我是一名拥有<strong>5</strong>年以上经验的 Java 全栈开发工程师，专注于构建支持金融系统和电商平台的应用程序，始终致力于编写简洁的代码、精心设计和流畅的用户体验。我学习能力强，喜欢迎接新挑战，不断提升自己的技能"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "description": "I believe in the collective power of intellect and creativity to forge the future of technology. Let's connect and transform ideas into reality together!"
+                        },
+
+                        "es": {
+                            "description": "Creo en el poder colectivo del intelecto y la creatividad para forjar el futuro de la tecnología. ¡Conectemos y transformemos ideas en realidad juntos!"
+                        },
+
+                        "fr": {
+                            "description": "Je crois au pouvoir collectif de l'intelligence et de la créativité pour façonner l'avenir de la technologie. Connectons-nous et transformons ensemble les idées en réalité !"
+                        },
+
+                        "zh": {
+                            "description": "我相信智慧与创意的集体力量能够塑造科技的未来。让我们连接彼此，共同将想法变为现实！"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2015, "month": 7},
+                    "dateEnd": {"year": 2019, "month": 5},
+                    "img": "images/places/DIT-University.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor of Technology in Information Technology",
+                            "description": "Completed my undergraduate degree covering foundational computer science topics such as Data Structures, Algorithms, and Object-Oriented Programming. Gained hands-on experience with problem-solving and logical thinking.",
+                            "province": "Dehradun",
+                            "country": "India",
+                            "institution": "DIT University",
+                            "tags": []
+                        },
+
+                        "es": {
+                            "title": "Licenciatura en Tecnología en Tecnologías de la Información",
+                            "description": "Completé mi título universitario cubriendo temas fundamentales de ciencias de la computación como Estructuras de Datos, Algoritmos y Programación Orientada a Objetos. Adquirí experiencia práctica en resolución de problemas y pensamiento lógico.",
+                            "province": "Dehradun",
+                            "country": "India",
+                            "institution": "DIT University",
+                            "tags": []
+                        },
+
+                        "fr": {
+                            "title": "Licence en Technologie en Technologies de l'Information",
+                            "description": "J'ai terminé mon diplôme de premier cycle couvrant les sujets fondamentaux de l'informatique tels que les Structures de Données, les Algorithmes et la Programmation Orientée Objet. J'ai acquis une expérience pratique en résolution de problèmes et en pensée logique.",
+                            "province": "Dehradun",
+                            "country": "India",
+                            "institution": "DIT University",
+                            "tags": []
+                        },
+
+                        "zh": {
+                            "title": "信息技术学士学位",
+                            "description": "完成了本科学位，涵盖了计算机科学基础主题，如数据结构、算法和面向对象编程。获得了解决问题和逻辑思维的实践经验。",
+                            "province": "Dehradun",
+                            "country": "India",
+                            "institution": "DIT University",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2022, "month": 8},
+                    "dateEnd": {"year": 2024, "month": 5},
+                    "img": "images/places/SJSU.jpg",
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#140f29",
+
+                    "locales": {
+                        "en": {
+                            "title": "Master's in Computer Software Engineering",
+                            "description": "Completed an intensive program focusing on user-centered design principles, usability testing, and interaction design. Developed skills in wireframing, prototyping, and user research methodologies.",
+                            "province": "California",
+                            "country": "United States",
+                            "institution": "San Jose State University",
+                            "tags": []
+                        },
+
+                        "es": {
+                            "title": "Maestría en Ingeniería de Software de Computadoras",
+                            "description": "Completé un programa intensivo enfocado en principios de diseño centrado en el usuario, pruebas de usabilidad y diseño de interacción. Desarrollé habilidades en wireframing, prototipado y metodologías de investigación de usuarios.",
+                            "province": "California",
+                            "country": "Estados Unidos",
+                            "institution": "Universidad Estatal de San José",
+                            "tags": []
+                        },
+
+                        "fr": {
+                            "title": "Master en Ingénierie Logicielle Informatique",
+                            "description": "J'ai terminé un programme intensif axé sur les principes de conception centrée sur l'utilisateur, les tests d'utilisabilité et la conception d'interaction. J'ai développé des compétences en wireframing, prototypage et méthodologies de recherche utilisateur.",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "Université d'État de San José",
+                            "tags": []
+                        },
+
+                        "zh": {
+                            "title": "计算机软件工程硕士",
+                            "description": "完成了一个专注于以用户为中心的设计原则、可用性测试和交互设计的密集课程。培养了线框图、原型制作和用户研究方法方面的技能。",
+                            "province": "加利福尼亚州",
+                            "country": "美国",
+                            "institution": "圣何塞州立大学",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

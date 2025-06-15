@@ -1,0 +1,212 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2023, "month": 8},
+                    "dateEnd": {"string": "now"},
+                    "img": "images/places/logo-morgan-stanley.jpg",
+                    "fallbackFaIcon": "fa-solid fa-building",
+                    "fallbackFaIconColor": "#0052CC",
+
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Java Developer",
+                            "description": "Developing high-performance <strong>financial systems</strong> and <strong>trading platforms</strong> using modern Java technologies and cloud infrastructure. Leading initiatives to enhance trade settlement processes, improve service availability, and optimize data retrieval systems for banking operations.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Reduced trade settlement time by <strong>40%</strong> by engineering event-driven architecture using Apache Kafka and gRPC.",
+                                    "Achieved <strong>99% service availability</strong> by containerizing Spring Boot microservices on Azure Kubernetes Service.",
+                                    "Enhanced financial data retrieval speed by <strong>60%</strong> implementing GraphQL APIs with Redis caching.",
+                                    "Built secure microservices supporting <strong>KYC, AML, and loan approval</strong> processes with OAuth2.0/JWT authentication.",
+                                    "Leveraged Java 21 features including <strong>virtual threads and pattern matching</strong> for high-concurrency processing.",
+                                    "Achieved <strong>90%+ test coverage</strong> using JUnit 5, Mockito, and Cucumber (BDD) frameworks.",
+                                    "Ensured <strong>PCI-DSS, SOX, and GDPR compliance</strong> with encryption standards and audit trails."
+                                ]
+                            },
+                            "province": "California",
+                            "country": "US",
+                            "institution": "Morgan Stanley",
+                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservices", "Financial Systems"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollador Full Stack Java",
+                            "description": "Desarrollando sistemas financieros de <strong>alto rendimiento</strong> y <strong>plataformas de trading</strong> utilizando tecnologías Java modernas e infraestructura en la nube. Liderando iniciativas para mejorar los procesos de liquidación de operaciones, mejorar la disponibilidad de servicios y optimizar los sistemas de recuperación de datos para operaciones bancarias.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Reduje el tiempo de liquidación de operaciones en un <strong>40%</strong> diseñando arquitectura impulsada por eventos con Apache Kafka y gRPC.",
+                                    "Logré <strong>99% de disponibilidad de servicio</strong> contenerizando microservicios Spring Boot en Azure Kubernetes Service.",
+                                    "Mejoré la velocidad de recuperación de datos financieros en un <strong>60%</strong> implementando APIs GraphQL con caché Redis.",
+                                    "Construí microservicios seguros que soportan procesos de <strong>KYC, AML y aprobación de préstamos</strong> con autenticación OAuth2.0/JWT.",
+                                    "Aproveché las características de Java 21 incluyendo <strong>hilos virtuales y coincidencia de patrones</strong> para procesamiento de alta concurrencia.",
+                                    "Logré <strong>más del 90% de cobertura de pruebas</strong> usando frameworks JUnit 5, Mockito y Cucumber (BDD).",
+                                    "Aseguré el cumplimiento de <strong>PCI-DSS, SOX y GDPR</strong> con estándares de encriptación y pistas de auditoría."
+                                ]
+                            },
+                            "province": "California",
+                            "country": "EE. UU.",
+                            "institution": "Morgan Stanley",
+                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservicios", "Sistemas Financieros"]
+                        },
+
+                        "fr": {
+                            "title": "Développeur Full Stack Java",
+                            "description": "Développement de <strong>systèmes financiers haute performance</strong> et de <strong>plateformes de trading</strong> utilisant des technologies Java modernes et une infrastructure cloud. Direction d'initiatives pour améliorer les processus de règlement des transactions, améliorer la disponibilité des services et optimiser les systèmes de récupération de données pour les opérations bancaires.",
+                            "list": {
+                                "title": "Réalisations Clés",
+                                "items": [
+                                    "Réduit le temps de règlement des transactions de <strong>40%</strong> en concevant une architecture pilotée par les événements avec Apache Kafka et gRPC.",
+                                    "Atteint <strong>99% de disponibilité de service</strong> en conteneurisant les microservices Spring Boot sur Azure Kubernetes Service.",
+                                    "Amélioré la vitesse de récupération des données financières de <strong>60%</strong> en implémentant des APIs GraphQL avec cache Redis.",
+                                    "Construit des microservices sécurisés supportant les processus <strong>KYC, AML et approbation de prêts</strong> avec authentification OAuth2.0/JWT.",
+                                    "Exploité les fonctionnalités Java 21 incluant <strong>les threads virtuels et la correspondance de motifs</strong> pour le traitement haute concurrence.",
+                                    "Atteint <strong>plus de 90% de couverture de tests</strong> utilisant les frameworks JUnit 5, Mockito et Cucumber (BDD).",
+                                    "Assuré la conformité <strong>PCI-DSS, SOX et GDPR</strong> avec standards de chiffrement et pistes d'audit."
+                                ]
+                            },
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "Morgan Stanley",
+                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservices", "Systèmes Financiers"]
+                        },
+
+                        "zh": {
+                            "title": "Java全栈开发工程师",
+                            "description": "使用现代Java技术和云基础设施开发<strong>高性能金融系统</strong>和<strong>交易平台</strong>。领导改进交易结算流程、提高服务可用性和优化银行业务数据检索系统的举措。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "通过使用Apache Kafka和gRPC设计事件驱动架构，将交易结算时间减少了<strong>40%</strong>。",
+                                    "通过在Azure Kubernetes Service上容器化Spring Boot微服务，实现了<strong>99%的服务可用性</strong>。",
+                                    "通过实施带Redis缓存的GraphQL API，将金融数据检索速度提高了<strong>60%</strong>。",
+                                    "构建了支持<strong>KYC、AML和贷款审批</strong>流程的安全微服务，使用OAuth2.0/JWT认证。",
+                                    "利用Java 21特性，包括<strong>虚拟线程和模式匹配</strong>进行高并发处理。",
+                                    "使用JUnit 5、Mockito和Cucumber（BDD）框架实现了<strong>90%以上的测试覆盖率</strong>。",
+                                    "通过加密标准和审计跟踪确保<strong>PCI-DSS、SOX和GDPR合规性</strong>。"
+                                ]
+                            },
+                            "province": "加利福尼亚州",
+                            "country": "美国",
+                            "institution": "Morgan Stanley",
+                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "微服务", "金融系统"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2019, "month": 3},
+                    "dateEnd": {"year": 2022, "month": 7},
+                    "img": "images/places/logo-zensar.png",
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#FF6B35",
+
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Java Developer",
+                            "description": "Developed and maintained <strong>e-commerce platforms</strong> and <strong>enterprise applications</strong> using Java, Spring Boot, and modern web technologies. Led initiatives to integrate payment gateways, optimize inventory management systems, and implement robust microservices architectures.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Spearheaded integration of <strong>multiple payment gateways</strong> (Razorpay, Paytm, Stripe) leading to 25% increase in successful transaction rates.",
+                                    "Engineered robust <strong>product catalog and inventory management system</strong> reducing stock discrepancies by 40%.",
+                                    "Developed <strong>RESTful APIs using Spring Boot</strong> facilitating seamless frontend-backend communication.",
+                                    "Designed and implemented <strong>microservices architecture</strong> improving application scalability and maintainability.",
+                                    "Leveraged <strong>Hibernate and JPA</strong> for efficient data access with MySQL and PostgreSQL databases.",
+                                    "Crafted responsive UI components using <strong>Angular and Bootstrap</strong> ensuring cross-browser compatibility.",
+                                    "Developed and maintained <strong>CI/CD pipelines using Jenkins</strong> reducing deployment time significantly.",
+                                    "Utilized <strong>AWS services</strong> (EC2, S3, RDS) for scalable hosting and secure data storage.",
+                                    "Implemented <strong>caching mechanism using Redis</strong> enhancing application performance and reducing load times."
+                                ]
+                            },
+                            "province": "Pune",
+                            "country": "India",
+                            "institution": "Zensar Technologies",
+                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Payment Gateways", "Microservices", "E-commerce"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollador Full Stack Java",
+                            "description": "Desarrollé y mantuve <strong>plataformas de comercio electrónico</strong> y <strong>aplicaciones empresariales</strong> utilizando Java, Spring Boot y tecnologías web modernas. Lideré iniciativas para integrar pasarelas de pago, optimizar sistemas de gestión de inventario e implementar arquitecturas de microservicios robustas.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Lideré la integración de <strong>múltiples pasarelas de pago</strong> (Razorpay, Paytm, Stripe) resultando en un aumento del 25% en las tasas de transacciones exitosas.",
+                                    "Diseñé un robusto <strong>sistema de catálogo de productos y gestión de inventario</strong> reduciendo las discrepancias de stock en un 40%.",
+                                    "Desarrollé <strong>APIs RESTful usando Spring Boot</strong> facilitando la comunicación fluida entre frontend y backend.",
+                                    "Diseñé e implementé <strong>arquitectura de microservicios</strong> mejorando la escalabilidad y mantenibilidad de la aplicación.",
+                                    "Aproveché <strong>Hibernate y JPA</strong> para acceso eficiente a datos con bases de datos MySQL y PostgreSQL.",
+                                    "Creé componentes de UI responsivos usando <strong>Angular y Bootstrap</strong> asegurando compatibilidad entre navegadores.",
+                                    "Desarrollé y mantuve <strong>pipelines CI/CD usando Jenkins</strong> reduciendo significativamente el tiempo de despliegue.",
+                                    "Utilicé <strong>servicios AWS</strong> (EC2, S3, RDS) para hosting escalable y almacenamiento seguro de datos.",
+                                    "Implementé <strong>mecanismo de caché usando Redis</strong> mejorando el rendimiento de la aplicación y reduciendo los tiempos de carga."
+                                ]
+                            },
+                            "province": "Pune",
+                            "country": "India",
+                            "institution": "Zensar Technologies",
+                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Pasarelas de Pago", "Microservicios", "E-commerce"]
+                        },
+
+                        "fr": {
+                            "title": "Développeur Full Stack Java",
+                            "description": "Développé et maintenu des <strong>plateformes e-commerce</strong> et des <strong>applications d'entreprise</strong> utilisant Java, Spring Boot et des technologies web modernes. Dirigé des initiatives pour intégrer des passerelles de paiement, optimiser les systèmes de gestion d'inventaire et implémenter des architectures de microservices robustes.",
+                            "list": {
+                                "title": "Réalisations Clés",
+                                "items": [
+                                    "Dirigé l'intégration de <strong>multiples passerelles de paiement</strong> (Razorpay, Paytm, Stripe) conduisant à une augmentation de 25% des taux de transactions réussies.",
+                                    "Conçu un robuste <strong>système de catalogue produits et de gestion d'inventaire</strong> réduisant les écarts de stock de 40%.",
+                                    "Développé des <strong>APIs RESTful utilisant Spring Boot</strong> facilitant la communication fluide frontend-backend.",
+                                    "Conçu et implémenté une <strong>architecture de microservices</strong> améliorant la scalabilité et la maintenabilité de l'application.",
+                                    "Exploité <strong>Hibernate et JPA</strong> pour un accès efficace aux données avec bases de données MySQL et PostgreSQL.",
+                                    "Créé des composants UI responsifs utilisant <strong>Angular et Bootstrap</strong> assurant la compatibilité inter-navigateurs.",
+                                    "Développé et maintenu des <strong>pipelines CI/CD utilisant Jenkins</strong> réduisant significativement le temps de déploiement.",
+                                    "Utilisé les <strong>services AWS</strong> (EC2, S3, RDS) pour hébergement scalable et stockage sécurisé des données.",
+                                    "Implémenté un <strong>mécanisme de cache utilisant Redis</strong> améliorant les performances de l'application et réduisant les temps de chargement."
+                                ]
+                            },
+                            "province": "Pune",
+                            "country": "Inde",
+                            "institution": "Zensar Technologies",
+                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Passerelles de Paiement", "Microservices", "E-commerce"]
+                        },
+
+                        "zh": {
+                            "title": "Java全栈开发工程师",
+                            "description": "使用Java、Spring Boot和现代Web技术开发和维护<strong>电商平台</strong>和<strong>企业应用程序</strong>。领导支付网关集成、库存管理系统优化和强大微服务架构实施的举措。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "主导集成<strong>多个支付网关</strong>（Razorpay、Paytm、Stripe），成功交易率提高25%。",
+                                    "设计了强大的<strong>产品目录和库存管理系统</strong>，将库存差异减少40%。",
+                                    "使用Spring Boot开发<strong>RESTful API</strong>，促进前后端无缝通信。",
+                                    "设计并实施<strong>微服务架构</strong>，提高应用程序的可扩展性和可维护性。",
+                                    "利用<strong>Hibernate和JPA</strong>与MySQL和PostgreSQL数据库进行高效数据访问。",
+                                    "使用<strong>Angular和Bootstrap</strong>制作响应式UI组件，确保跨浏览器兼容性。",
+                                    "使用Jenkins开发和维护<strong>CI/CD管道</strong>，显著减少部署时间。",
+                                    "利用<strong>AWS服务</strong>（EC2、S3、RDS）进行可扩展托管和安全数据存储。",
+                                    "使用Redis实施<strong>缓存机制</strong>，提高应用程序性能并减少加载时间。"
+                                ]
+                            },
+                            "province": "浦那",
+                            "country": "印度",
+                            "institution": "Zensar Technologies",
+                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "支付网关", "微服务", "电子商务"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+} 

@@ -1,0 +1,103 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {"title": "Awards"},
+                "es": {"title": "Premios"},
+                "fr": {"title": "Prix"},
+                "zh": {"title": "奖项"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2021, "month": 11},
+                    "fallbackFaIcon": "fa-solid fa-award",
+                    "fallbackFaIconColor": "#FFD700",
+                    "locales": {
+                        "en": {
+                            "title": "WOW Award - Team Excellence",
+                            "description": "Won the 'WOW' award for team 'A Team' for successfully completing a major project and demonstrating exceptional teamwork and shared responsibilities in delivering high-quality solutions.",
+                            "institution": "Zensar Technologies"
+                        },
+
+                        "es": {
+                            "title": "Premio WOW - Excelencia en Equipo",
+                            "description": "Ganó el premio 'WOW' para el equipo 'A Team' por completar exitosamente un proyecto importante y demostrar trabajo en equipo excepcional y responsabilidades compartidas en la entrega de soluciones de alta calidad.",
+                            "institution": "Zensar Technologies"
+                        },
+
+                        "fr": {
+                            "title": "Prix WOW - Excellence d'Équipe",
+                            "description": "A remporté le prix 'WOW' pour l'équipe 'A Team' pour avoir terminé avec succès un projet majeur et démontré un travail d'équipe exceptionnel et des responsabilités partagées dans la livraison de solutions de haute qualité.",
+                            "institution": "Zensar Technologies"
+                        },
+
+                        "zh": {
+                            "title": "WOW奖 - 团队卓越",
+                            "description": "因成功完成重大项目并在交付高质量解决方案方面展现出色的团队合作和共同责任，为\"A团队\"赢得了\"WOW\"奖。",
+                            "institution": "Zensar Technologies"
+                        }
+                    },
+                    "links": []
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {"title": "Certifications"},
+                "es": {"title": "Certificaciones"},
+                "fr": {"title": "Certifications"},
+                "zh": {"title": "获得的证书"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2023, "month": 10},
+                    "fallbackFaIcon": "fa-brands fa-aws",
+                    "fallbackFaIconColor": "#FF9900",
+                    "locales": {
+                        "en": {
+                            "title": "AWS Certified Solutions Architect – Associate",
+                            "description": "Achieved AWS Certified Solutions Architect – Associate certification, demonstrating expertise in designing distributed applications and systems on AWS platform. Validated skills in architectural design, deployment, and security on AWS.",
+                            "institution": "Amazon Web Services (AWS)"
+                        },
+
+                        "es": {
+                            "title": "AWS Certified Solutions Architect – Associate",
+                            "description": "Logró la certificación AWS Certified Solutions Architect – Associate, demostrando experiencia en el diseño de aplicaciones y sistemas distribuidos en la plataforma AWS. Habilidades validadas en diseño arquitectónico, implementación y seguridad en AWS.",
+                            "institution": "Amazon Web Services (AWS)"
+                        },
+
+                        "fr": {
+                            "title": "AWS Certified Solutions Architect – Associate",
+                            "description": "A obtenu la certification AWS Certified Solutions Architect – Associate, démontrant une expertise dans la conception d'applications et de systèmes distribués sur la plateforme AWS. Compétences validées en conception architecturale, déploiement et sécurité sur AWS.",
+                            "institution": "Amazon Web Services (AWS)"
+                        },
+
+                        "zh": {
+                            "title": "AWS认证解决方案架构师 – 助理级",
+                            "description": "获得AWS认证解决方案架构师-助理级认证，展示了在AWS平台上设计分布式应用程序和系统的专业知识。验证了在AWS上的架构设计、部署和安全方面的技能。",
+                            "institution": "Amazon Web Services (AWS)"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://www.credly.com/badges/6932b0e4-2dc3-4baa-a2bd-d04e69890ad7/linked_in?t=s33nqr", "stringKey": "view_certification"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

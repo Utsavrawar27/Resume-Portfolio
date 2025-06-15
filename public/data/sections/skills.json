@@ -1,0 +1,631 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Programming Languages"},
+                "es": {"title": "Lenguajes de Programación"},
+                "fr": {"title": "Langages de Programmation"},
+                "zh": {"title": "编程语言"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2019, "month": 1},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-java",
+                    "fallbackFaIconColor": null,
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Java 21",
+                            "description": "Expert-level proficiency with Java 21, including modern features and best practices for enterprise applications."
+                        },
+                        "es": {
+                            "title": "Java 21",
+                            "description": "Competencia a nivel experto con Java 21, incluyendo características modernas y mejores prácticas para aplicaciones empresariales."
+                        },
+                        "fr": {
+                            "title": "Java 21",
+                            "description": "Compétence au niveau expert avec Java 21, y compris les fonctionnalités modernes et les meilleures pratiques pour les applications d'entreprise."
+                        },
+                        "zh": {
+                            "title": "Java 21",
+                            "description": "精通Java 21，包括现代特性和企业应用的最佳实践。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2020, "month": 6},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-js-square",
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "description": "Advanced TypeScript skills for building type-safe, scalable applications with modern frameworks."
+                        },
+                        "es": {
+                            "title": "TypeScript",
+                            "description": "Habilidades avanzadas en TypeScript para construir aplicaciones escalables y seguras en tipos con frameworks modernos."
+                        },
+                        "fr": {
+                            "title": "TypeScript",
+                            "description": "Compétences avancées en TypeScript pour créer des applications évolutives et sûres avec des frameworks modernes."
+                        },
+                        "zh": {
+                            "title": "TypeScript",
+                            "description": "高级TypeScript技能，用于构建类型安全、可扩展的现代框架应用程序。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2019, "month": 3},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-js-square",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "description": "Proficient in modern JavaScript ES6+, including async/await, destructuring, and functional programming."
+                        },
+                        "es": {
+                            "title": "JavaScript",
+                            "description": "Competente en JavaScript moderno ES6+, incluyendo async/await, destructuring y programación funcional."
+                        },
+                        "fr": {
+                            "title": "JavaScript",
+                            "description": "Compétent en JavaScript moderne ES6+, y compris async/await, destructuring et programmation fonctionnelle."
+                        },
+                        "zh": {
+                            "title": "JavaScript",
+                            "description": "精通现代JavaScript ES6+，包括async/await、解构和函数式编程。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Backend Technologies"},
+                "es": {"title": "Tecnologías Backend"},
+                "fr": {"title": "Technologies Backend"},
+                "zh": {"title": "后端技术"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2019, "month": 6},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-leaf",
+                    "fallbackFaIconColor": null,
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Spring Boot 3.x",
+                            "description": "Expert in Spring Boot 3.x for building enterprise-grade REST APIs and microservices."
+                        },
+                        "es": {
+                            "title": "Spring Boot 3.x",
+                            "description": "Experto en Spring Boot 3.x para construir APIs REST y microservicios de nivel empresarial."
+                        },
+                        "fr": {
+                            "title": "Spring Boot 3.x",
+                            "description": "Expert en Spring Boot 3.x pour créer des API REST et microservices de niveau entreprise."
+                        },
+                        "zh": {
+                            "title": "Spring Boot 3.x",
+                            "description": "精通Spring Boot 3.x，用于构建企业级REST API和微服务。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2019, "month": 8},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Hibernate 6 & JPA",
+                            "description": "Advanced knowledge of Hibernate 6 and JPA for database operations and ORM mapping."
+                        },
+                        "es": {
+                            "title": "Hibernate 6 & JPA",
+                            "description": "Conocimiento avanzado de Hibernate 6 y JPA para operaciones de base de datos y mapeo ORM."
+                        },
+                        "fr": {
+                            "title": "Hibernate 6 & JPA",
+                            "description": "Connaissance avancée d'Hibernate 6 et JPA pour les opérations de base de données et le mappage ORM."
+                        },
+                        "zh": {
+                            "title": "Hibernate 6 & JPA",
+                            "description": "精通Hibernate 6和JPA，用于数据库操作和ORM映射。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2020, "month": 3},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-server",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "RESTful APIs & GraphQL",
+                            "description": "Experienced in designing and implementing RESTful APIs, GraphQL, and gRPC services."
+                        },
+                        "es": {
+                            "title": "APIs RESTful y GraphQL",
+                            "description": "Experimentado en diseñar e implementar APIs RESTful, GraphQL y servicios gRPC."
+                        },
+                        "fr": {
+                            "title": "APIs RESTful et GraphQL",
+                            "description": "Expérimenté dans la conception et l'implémentation d'APIs RESTful, GraphQL et services gRPC."
+                        },
+                        "zh": {
+                            "title": "RESTful APIs & GraphQL",
+                            "description": "经验丰富的RESTful API、GraphQL和gRPC服务设计和实现。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2020, "month": 1},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL & PostgreSQL",
+                            "description": "Proficient in database design, optimization, and management with MySQL and PostgreSQL."
+                        },
+                        "es": {
+                            "title": "MySQL y PostgreSQL",
+                            "description": "Competente en diseño, optimización y gestión de bases de datos con MySQL y PostgreSQL."
+                        },
+                        "fr": {
+                            "title": "MySQL et PostgreSQL",
+                            "description": "Compétent en conception, optimisation et gestion de bases de données avec MySQL et PostgreSQL."
+                        },
+                        "zh": {
+                            "title": "MySQL & PostgreSQL",
+                            "description": "精通MySQL和PostgreSQL的数据库设计、优化和管理。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Frontend Technologies"},
+                "es": {"title": "Tecnologías Frontend"},
+                "fr": {"title": "Technologies Frontend"},
+                "zh": {"title": "前端技术"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2020, "month": 2},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-react",
+                    "fallbackFaIconColor": null,
+                    "percentage": 92,
+                    "locales": {
+                        "en": {
+                            "title": "React.js 18",
+                            "description": "Advanced React.js 18 skills with hooks, context API, and modern patterns for building dynamic UIs."
+                        },
+                        "es": {
+                            "title": "React.js 18",
+                            "description": "Habilidades avanzadas en React.js 18 con hooks, context API y patrones modernos para construir UIs dinámicas."
+                        },
+                        "fr": {
+                            "title": "React.js 18",
+                            "description": "Compétences avancées en React.js 18 avec hooks, context API et patterns modernes pour créer des UIs dynamiques."
+                        },
+                        "zh": {
+                            "title": "React.js 18",
+                            "description": "高级React.js 18技能，包括hooks、context API和现代模式，用于构建动态UI。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2021, "month": 1},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-arrow-right",
+                    "fallbackFaIconColor": null,
+                    "percentage": 88,
+                    "locales": {
+                        "en": {
+                            "title": "Next.js (SSR/ISR)",
+                            "description": "Experienced with Next.js for server-side rendering and incremental static regeneration."
+                        },
+                        "es": {
+                            "title": "Next.js (SSR/ISR)",
+                            "description": "Experimentado con Next.js para renderizado del lado del servidor y regeneración estática incremental."
+                        },
+                        "fr": {
+                            "title": "Next.js (SSR/ISR)",
+                            "description": "Expérimenté avec Next.js pour le rendu côté serveur et la régénération statique incrémentale."
+                        },
+                        "zh": {
+                            "title": "Next.js (SSR/ISR)",
+                            "description": "精通Next.js的服务端渲染和增量静态再生成。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2020, "month": 8},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-angular",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "description": "Proficient in Angular framework for building enterprise-level single-page applications."
+                        },
+                        "es": {
+                            "title": "Angular",
+                            "description": "Competente en el framework Angular para construir aplicaciones de una sola página de nivel empresarial."
+                        },
+                        "fr": {
+                            "title": "Angular",
+                            "description": "Compétent dans le framework Angular pour créer des applications à page unique de niveau entreprise."
+                        },
+                        "zh": {
+                            "title": "Angular",
+                            "description": "精通Angular框架，用于构建企业级单页应用程序。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2020, "month": 6},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-paint-brush",
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS & Bootstrap",
+                            "description": "Expert in modern CSS frameworks including Tailwind CSS, Bootstrap, and Material-UI for responsive design."
+                        },
+                        "es": {
+                            "title": "Tailwind CSS y Bootstrap",
+                            "description": "Experto en frameworks CSS modernos incluyendo Tailwind CSS, Bootstrap y Material-UI para diseño responsivo."
+                        },
+                        "fr": {
+                            "title": "Tailwind CSS et Bootstrap",
+                            "description": "Expert en frameworks CSS modernes incluant Tailwind CSS, Bootstrap et Material-UI pour le design réactif."
+                        },
+                        "zh": {
+                            "title": "Tailwind CSS & Bootstrap",
+                            "description": "精通现代CSS框架，包括Tailwind CSS、Bootstrap和Material-UI，用于响应式设计。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Security & Compliance"},
+                "es": {"title": "Seguridad y Cumplimiento"},
+                "fr": {"title": "Sécurité et Conformité"},
+                "zh": {"title": "安全与合规"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2020, "month": 4},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-shield-alt",
+                    "fallbackFaIconColor": null,
+                    "percentage": 88,
+                    "locales": {
+                        "en": {
+                            "title": "OAuth2.0 & JWT",
+                            "description": "Experienced in implementing secure authentication and authorization using OAuth2.0 and JWT tokens."
+                        },
+                        "es": {
+                            "title": "OAuth2.0 y JWT",
+                            "description": "Experimentado en implementar autenticación y autorización seguras usando OAuth2.0 y tokens JWT."
+                        },
+                        "fr": {
+                            "title": "OAuth2.0 et JWT",
+                            "description": "Expérimenté dans l'implémentation d'authentification et autorisation sécurisées avec OAuth2.0 et tokens JWT."
+                        },
+                        "zh": {
+                            "title": "OAuth2.0 & JWT",
+                            "description": "精通使用OAuth2.0和JWT令牌实现安全认证和授权。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2021, "month": 2},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-lock",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "PCI-DSS, SOX, GDPR",
+                            "description": "Knowledgeable in compliance standards including PCI-DSS, SOX, and GDPR for secure data handling."
+                        },
+                        "es": {
+                            "title": "PCI-DSS, SOX, GDPR",
+                            "description": "Conocedor de estándares de cumplimiento incluyendo PCI-DSS, SOX y GDPR para manejo seguro de datos."
+                        },
+                        "fr": {
+                            "title": "PCI-DSS, SOX, GDPR",
+                            "description": "Connaisseur des normes de conformité incluant PCI-DSS, SOX et GDPR pour la gestion sécurisée des données."
+                        },
+                        "zh": {
+                            "title": "PCI-DSS, SOX, GDPR",
+                            "description": "熟悉合规标准，包括PCI-DSS、SOX和GDPR，用于安全数据处理。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "DevOps & Cloud"},
+                "es": {"title": "DevOps y Nube"},
+                "fr": {"title": "DevOps et Cloud"},
+                "zh": {"title": "DevOps与云计算"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2021, "month": 6},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-docker",
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Docker & Kubernetes",
+                            "description": "Proficient in containerization with Docker and orchestration using Kubernetes and Helm Charts."
+                        },
+                        "es": {
+                            "title": "Docker y Kubernetes",
+                            "description": "Competente en contenerización con Docker y orquestación usando Kubernetes y Helm Charts."
+                        },
+                        "fr": {
+                            "title": "Docker et Kubernetes",
+                            "description": "Compétent en conteneurisation avec Docker et orchestration avec Kubernetes et Helm Charts."
+                        },
+                        "zh": {
+                            "title": "Docker & Kubernetes",
+                            "description": "精通Docker容器化和使用Kubernetes及Helm Charts进行编排。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2020, "month": 10},
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-aws",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Azure & AWS",
+                            "description": "Experienced with Azure Kubernetes Service, AWS EC2, S3, RDS, and other cloud services."
+                        },
+                        "es": {
+                            "title": "Azure y AWS",
+                            "description": "Experimentado con Azure Kubernetes Service, AWS EC2, S3, RDS y otros servicios en la nube."
+                        },
+                        "fr": {
+                            "title": "Azure et AWS",
+                            "description": "Expérimenté avec Azure Kubernetes Service, AWS EC2, S3, RDS et autres services cloud."
+                        },
+                        "zh": {
+                            "title": "Azure & AWS",
+                            "description": "精通Azure Kubernetes Service、AWS EC2、S3、RDS和其他云服务。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2020, "month": 5},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-cogs",
+                    "fallbackFaIconColor": null,
+                    "percentage": 88,
+                    "locales": {
+                        "en": {
+                            "title": "Jenkins & CI/CD",
+                            "description": "Expert in setting up CI/CD pipelines using Jenkins, Git, and GitHub for automated deployments."
+                        },
+                        "es": {
+                            "title": "Jenkins y CI/CD",
+                            "description": "Experto en configurar pipelines CI/CD usando Jenkins, Git y GitHub para despliegues automatizados."
+                        },
+                        "fr": {
+                            "title": "Jenkins et CI/CD",
+                            "description": "Expert dans la configuration de pipelines CI/CD avec Jenkins, Git et GitHub pour les déploiements automatisés."
+                        },
+                        "zh": {
+                            "title": "Jenkins & CI/CD",
+                            "description": "精通使用Jenkins、Git和GitHub设置CI/CD管道进行自动化部署。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2021, "month": 3},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-vial",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Testing & Quality",
+                            "description": "Proficient in JUnit 5, Mockito, and Cucumber for comprehensive testing strategies including BDD."
+                        },
+                        "es": {
+                            "title": "Pruebas y Calidad",
+                            "description": "Competente en JUnit 5, Mockito y Cucumber para estrategias integrales de pruebas incluyendo BDD."
+                        },
+                        "fr": {
+                            "title": "Tests et Qualité",
+                            "description": "Compétent en JUnit 5, Mockito et Cucumber pour des stratégies de test complètes incluant BDD."
+                        },
+                        "zh": {
+                            "title": "Testing & Quality",
+                            "description": "精通JUnit 5、Mockito和Cucumber，用于包括BDD在内的全面测试策略。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 6,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "fr": {"title": "Langues"},
+                "zh": {"title": "语言"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 1,
+                "small_icons": true,
+                "transparent_item_icon_background": true,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": null,
+                    "img": "images/flags/en-us.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "description": "Fluent in English with excellent communication and technical writing skills.",
+                            "level": "Fluent"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "description": "Fluido en inglés con excelentes habilidades de comunicación y escritura técnica.",
+                            "level": "Fluido"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "description": "Courant en anglais avec d'excellentes compétences en communication et rédaction technique.",
+                            "level": "Courant"
+                        },
+                        "zh": {
+                            "title": "英语",
+                            "description": "英语流利，具有出色的沟通和技术写作能力。",
+                            "level": "流利"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": null,
+                    "img": "images/flags/hindi.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "description": "Native speaker with excellent communication skills in Hindi.",
+                            "level": "Native"
+                        },
+                        "es": {
+                            "title": "Hindi",
+                            "description": "Hablante nativo con excelentes habilidades de comunicación en hindi.",
+                            "level": "Nativo"
+                        },
+                        "fr": {
+                            "title": "Hindi",
+                            "description": "Locuteur natif avec d'excellentes compétences en communication en hindi.",
+                            "level": "Langue maternelle"
+                        },
+                        "zh": {
+                            "title": "印地语",
+                            "description": "印地语母语人士，具有出色的沟通能力。",
+                            "level": "母语"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Hobbies & Interests"},
+                "es": {"title": "Pasatiempos e Intereses"},
+                "fr": {"title": "Loisirs et Intérêts"},
+                "zh": {"title": "爱好与兴趣"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": true,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-music",
+                    "fallbackFaIconColor": "#FF6384",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Music",
+                            "description": "Passionate about listening to various genres and exploring different musical styles from around the world.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Música",
+                            "description": "Apasionado por escuchar varios géneros y explorar diferentes estilos musicales de todo el mundo.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Musique",
+                            "description": "Passionné par l'écoute de divers genres et l'exploration de différents styles musicaux du monde entier.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "音乐",
+                            "description": "热衷于聆听各种流派并探索来自世界各地的不同音乐风格。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-tv",
+                    "fallbackFaIconColor": "#36A2EB",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Anime",
+                            "description": "Enjoy watching anime series and movies, appreciating the unique storytelling and artistic animation styles.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Anime",
+                            "description": "Disfruto viendo series y películas de anime, apreciando la narrativa única y los estilos de animación artística.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Anime",
+                            "description": "J'aime regarder des séries et des films d'anime, en appréciant la narration unique et les styles d'animation artistique.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "动漫",
+                            "description": "喜欢观看动漫系列和电影，欣赏独特的故事叙述和艺术动画风格。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-film",
+                    "fallbackFaIconColor": "#FFCD56",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Movies",
+                            "description": "Enthusiastic movie lover who enjoys exploring different genres, from action and thriller to sci-fi and drama.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Películas",
+                            "description": "Amante entusiasta del cine que disfruta explorando diferentes géneros, desde acción y thriller hasta ciencia ficción y drama.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Films",
+                            "description": "Passionné de cinéma qui aime explorer différents genres, de l'action et du thriller à la science-fiction et au drame.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "电影",
+                            "description": "热情的电影爱好者，喜欢探索不同类型的电影，从动作和惊悚片到科幻和戏剧。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-baseball",
+                    "fallbackFaIconColor": "#C5B0FF",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cricket",
+                            "description": "Passionate cricket fan who enjoys following matches, understanding game strategies, and playing with friends.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Cricket",
+                            "description": "Fanático apasionado del cricket que disfruta siguiendo partidos, entendiendo estrategias del juego y jugando con amigos.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Cricket",
+                            "description": "Passionné de cricket qui aime suivre les matchs, comprendre les stratégies de jeu et jouer avec des amis.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "板球",
+                            "description": "热情的板球迷，喜欢关注比赛、了解游戏策略并与朋友一起游戏。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-bicycle",
+                    "fallbackFaIconColor": "#8EE3C5",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cycling",
+                            "description": "Love cycling for fitness and recreation, exploring scenic routes and enjoying the freedom of the open road.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Ciclismo",
+                            "description": "Amo el ciclismo para el fitness y la recreación, explorando rutas panorámicas y disfrutando la libertad del camino abierto.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Cyclisme",
+                            "description": "J'adore le cyclisme pour le fitness et les loisirs, en explorant des routes panoramiques et en profitant de la liberté de la route ouverte.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "骑行",
+                            "description": "喜欢骑行健身和娱乐，探索风景优美的路线并享受开阔道路的自由。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 6,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-mountain",
+                    "fallbackFaIconColor": "#EEB79A",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Trekking",
+                            "description": "Adventure enthusiast who loves trekking and hiking, connecting with nature and challenging personal limits.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Senderismo",
+                            "description": "Entusiasta de la aventura que ama el trekking y senderismo, conectando con la naturaleza y desafiando límites personales.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Randonnée",
+                            "description": "Passionné d'aventure qui aime le trekking et la randonnée, se connecter avec la nature et défier ses limites personnelles.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "徒步旅行",
+                            "description": "冒险爱好者，热爱徒步旅行和远足，与大自然连接并挑战个人极限。",
+                            "level": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
