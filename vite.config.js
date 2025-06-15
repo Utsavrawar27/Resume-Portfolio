@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    // Set to root for Vercel deployment
+    // Set to root for Vercel deployment - force rebuild
     base: '/',
     plugins: [vue()],
     css: {
