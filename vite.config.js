@@ -3,7 +3,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/utsav-resume/',
+    // Use root base for Vercel, /utsav-resume/ for GitHub Pages
+    base: process.env.VERCEL ? '/' : '/utsav-resume/',
     plugins: [vue()],
     css: {
         preprocessorOptions: {
