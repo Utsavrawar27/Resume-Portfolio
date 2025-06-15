@@ -28,9 +28,10 @@ npm run build
 2. Copy `.env.example` to `.env`
 3. Fill in your EmailJS credentials in `.env`
 
-## 🌐 Live URL
+## 🌐 Live URLs
 
-Development: `http://localhost:5173/utsav-resume/`
+- **Production (Vercel)**: `https://utsav-resume-portfolio.vercel.app/`
+- **Development**: `http://localhost:5173/`
 
 ---
 
