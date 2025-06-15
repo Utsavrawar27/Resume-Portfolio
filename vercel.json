@@ -1,10 +1,18 @@
 {
-  "buildCommand": "npm run build",
+  "version": 2,
+  "buildCommand": "rm -rf dist && npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm install",
+  "installCommand": "npm ci",
   "framework": "vite",
   "env": {
-    "VITE_BASE_URL": "/"
+    "NODE_ENV": "production",
+    "VITE_BASE_URL": "/",
+    "BASE_URL": "/"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
   },
   "rewrites": [
     {
@@ -14,11 +22,11 @@
   ],
   "headers": [
     {
-      "source": "/assets/(.*)",
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+          "value": "no-cache, no-store, must-revalidate"
         }
       ]
     }
