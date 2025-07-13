@@ -12,7 +12,7 @@
                 {
                     "id": 1,
                     "dateStart": {"year": 2023, "month": 7},
-                    "dateEnd": {"string": "now"},
+                    "dateEnd": {"year": 2025, "month": 5},
                     "img": "images/places/logo-morgan-stanley.jpg",
                     "fallbackFaIcon": "fa-solid fa-building",
                     "fallbackFaIconColor": "#0052CC",
@@ -106,103 +106,107 @@
 
                 {
                     "id": 2,
-                    "dateStart": {"year": 2019, "month": 3},
+                    "dateStart": {"year": 2019, "month": 8},
                     "dateEnd": {"year": 2022, "month": 6},
-                    "img": "images/places/logo-zensar.png",
+                    "img": "images/places/Subex-logo.png",
                     "fallbackFaIcon": "fa-solid fa-code",
                     "fallbackFaIconColor": "#FF6B35",
 
                     "locales": {
                         "en": {
-                            "title": "Full Stack Java Developer",
-                            "description": "Developed and maintained <strong>e-commerce platforms</strong> and <strong>enterprise applications</strong> using Java, Spring Boot, and modern web technologies. Led initiatives to integrate payment gateways, optimize inventory management systems, and implement robust microservices architectures.",
+                            "title": "Software Development Engineer",
+                            "description": "Developed and maintained <strong>highly scalable backend services</strong> for <strong>Optus mobile</strong> serving 11M+ users, using Java, Spring Boot, and microservices architecture. Led initiatives to optimize fraud detection systems, implement event-driven processing, and architect resilient microservices-based solutions.",
                             "list": {
                                 "title": "Key Achievements",
                                 "items": [
-                                    "Spearheaded integration of <strong>multiple payment gateways</strong> (Razorpay, Paytm, Stripe) leading to 25% increase in successful transaction rates.",
-                                    "Engineered robust <strong>product catalog and inventory management system</strong> reducing stock discrepancies by 40%.",
-                                    "Developed <strong>RESTful APIs using Spring Boot</strong> facilitating seamless frontend-backend communication.",
-                                    "Designed and implemented <strong>microservices architecture</strong> improving application scalability and maintainability.",
-                                    "Leveraged <strong>Hibernate and JPA</strong> for efficient data access with MySQL and PostgreSQL databases.",
-                                    "Crafted responsive UI components using <strong>Angular and Bootstrap</strong> ensuring cross-browser compatibility.",
-                                    "Developed and maintained <strong>CI/CD pipelines using Jenkins</strong> reducing deployment time significantly.",
-                                    "Utilized <strong>AWS services</strong> (EC2, S3, RDS) for scalable hosting and secure data storage.",
-                                    "Implemented <strong>caching mechanism using Redis</strong> enhancing application performance and reducing load times."
+                                    "Developed and maintained <strong>highly scalable backend services</strong> for Optus mobile, serving 11M+ users, using Java, Spring Boot, and microservices architecture.",
+                                    "Optimized <strong>fraud detection performance</strong>, replacing synchronous API calls with Kafka-based event-driven processing, reducing fraud alert delays by 15%.",
+                                    "Architected a <strong>resilient microservices-based system</strong> with Docker, Kubernetes, and Jenkins CI/CD pipeline, leading to an 80% improvement in system uptime.",
+                                    "Designed and implemented <strong>RESTful APIs</strong> to facilitate seamless third-party service integration and new feature rollouts.",
+                                    "Implemented <strong>OAuth 2 for secure user authentication</strong> and authorization, increasing industry security standards by 60%.",
+                                    "Led the <strong>migration of databases</strong>, realizing a remarkable 30% optimization in data storage and retrieval for specific use cases.",
+                                    "Implemented <strong>gRPC protocol</strong> to handle big data collections and real-time communication more effectively.",
+                                    "Integrated <strong>connection pooling using HikariCP</strong> to manage database connections resolving critical production issues.",
+                                    "Cut deployment costs by <strong>$2K/month</strong> through containerized microservices and auto-scaling optimizations.",
+                                    "Optimized <strong>MongoDB queries</strong> by implementing compound indexes, query tuning, and sharding, reducing execution time from 5-7 seconds to 2-3 seconds."
                                 ]
                             },
-                            "province": "Pune",
+                            "province": "Bangalore",
                             "country": "India",
-                            "institution": "Zensar Technologies",
-                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Payment Gateways", "Microservices", "E-commerce"]
+                            "institution": "Subex Limited",
+                            "tags": ["Java", "Spring Boot", "Kafka", "Docker", "Kubernetes", "OAuth 2", "gRPC", "MongoDB", "Fraud Detection", "Microservices"]
                         },
 
                         "es": {
-                            "title": "Desarrollador Full Stack Java",
-                            "description": "Desarrollé y mantuve <strong>plataformas de comercio electrónico</strong> y <strong>aplicaciones empresariales</strong> utilizando Java, Spring Boot y tecnologías web modernas. Lideré iniciativas para integrar pasarelas de pago, optimizar sistemas de gestión de inventario e implementar arquitecturas de microservicios robustas.",
+                            "title": "Ingeniero de Desarrollo de Software",
+                            "description": "Desarrollé y mantuve <strong>servicios backend altamente escalables</strong> para <strong>Optus mobile</strong> sirviendo a más de 11 millones de usuarios, utilizando Java, Spring Boot y arquitectura de microservicios. Lideré iniciativas para optimizar sistemas de detección de fraudes, implementar procesamiento basado en eventos y arquitectar soluciones resilientes basadas en microservicios.",
                             "list": {
                                 "title": "Logros Clave",
                                 "items": [
-                                    "Lideré la integración de <strong>múltiples pasarelas de pago</strong> (Razorpay, Paytm, Stripe) resultando en un aumento del 25% en las tasas de transacciones exitosas.",
-                                    "Diseñé un robusto <strong>sistema de catálogo de productos y gestión de inventario</strong> reduciendo las discrepancias de stock en un 40%.",
-                                    "Desarrollé <strong>APIs RESTful usando Spring Boot</strong> facilitando la comunicación fluida entre frontend y backend.",
-                                    "Diseñé e implementé <strong>arquitectura de microservicios</strong> mejorando la escalabilidad y mantenibilidad de la aplicación.",
-                                    "Aproveché <strong>Hibernate y JPA</strong> para acceso eficiente a datos con bases de datos MySQL y PostgreSQL.",
-                                    "Creé componentes de UI responsivos usando <strong>Angular y Bootstrap</strong> asegurando compatibilidad entre navegadores.",
-                                    "Desarrollé y mantuve <strong>pipelines CI/CD usando Jenkins</strong> reduciendo significativamente el tiempo de despliegue.",
-                                    "Utilicé <strong>servicios AWS</strong> (EC2, S3, RDS) para hosting escalable y almacenamiento seguro de datos.",
-                                    "Implementé <strong>mecanismo de caché usando Redis</strong> mejorando el rendimiento de la aplicación y reduciendo los tiempos de carga."
+                                    "Desarrollé y mantuve <strong>servicios backend altamente escalables</strong> para Optus mobile, sirviendo a más de 11 millones de usuarios, utilizando Java, Spring Boot y arquitectura de microservicios.",
+                                    "Optimicé el <strong>rendimiento de detección de fraudes</strong>, reemplazando llamadas API síncronas con procesamiento basado en eventos Kafka, reduciendo los retrasos de alertas de fraude en un 15%.",
+                                    "Arquitecturé un <strong>sistema resiliente basado en microservicios</strong> con Docker, Kubernetes y pipeline CI/CD Jenkins, logrando una mejora del 80% en tiempo de actividad del sistema.",
+                                    "Diseñé e implementé <strong>APIs RESTful</strong> para facilitar la integración perfecta de servicios de terceros y despliegues de nuevas características.",
+                                    "Implementé <strong>OAuth 2 para autenticación segura de usuarios</strong> y autorización, aumentando los estándares de seguridad de la industria en un 60%.",
+                                    "Lideré la <strong>migración de bases de datos</strong>, logrando una notable optimización del 30% en almacenamiento y recuperación de datos para casos específicos.",
+                                    "Implementé <strong>protocolo gRPC</strong> para manejar colecciones de big data y comunicación en tiempo real de manera más efectiva.",
+                                    "Integré <strong>pooling de conexiones usando HikariCP</strong> para gestionar conexiones de base de datos resolviendo problemas críticos de producción.",
+                                    "Reduje los costos de despliegue en <strong>$2K/mes</strong> a través de microservicios containerizados y optimizaciones de auto-escalado.",
+                                    "Optimicé <strong>consultas MongoDB</strong> implementando índices compuestos, ajuste de consultas y sharding, reduciendo el tiempo de ejecución de 5-7 segundos a 2-3 segundos."
                                 ]
                             },
-                            "province": "Pune",
+                            "province": "Bangalore",
                             "country": "India",
-                            "institution": "Zensar Technologies",
-                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Pasarelas de Pago", "Microservicios", "E-commerce"]
+                            "institution": "Subex Limited",
+                            "tags": ["Java", "Spring Boot", "Kafka", "Docker", "Kubernetes", "OAuth 2", "gRPC", "MongoDB", "Detección de Fraudes", "Microservicios"]
                         },
 
                         "fr": {
-                            "title": "Développeur Full Stack Java",
-                            "description": "Développé et maintenu des <strong>plateformes e-commerce</strong> et des <strong>applications d'entreprise</strong> utilisant Java, Spring Boot et des technologies web modernes. Dirigé des initiatives pour intégrer des passerelles de paiement, optimiser les systèmes de gestion d'inventaire et implémenter des architectures de microservices robustes.",
+                            "title": "Ingénieur de Développement Logiciel",
+                            "description": "Développé et maintenu des <strong>services backend hautement évolutifs</strong> pour <strong>Optus mobile</strong> servant plus de 11 millions d'utilisateurs, utilisant Java, Spring Boot et l'architecture de microservices. Dirigé des initiatives pour optimiser les systèmes de détection de fraude, implémenter le traitement basé sur les événements et architecturer des solutions résilientes basées sur les microservices.",
                             "list": {
                                 "title": "Réalisations Clés",
                                 "items": [
-                                    "Dirigé l'intégration de <strong>multiples passerelles de paiement</strong> (Razorpay, Paytm, Stripe) conduisant à une augmentation de 25% des taux de transactions réussies.",
-                                    "Conçu un robuste <strong>système de catalogue produits et de gestion d'inventaire</strong> réduisant les écarts de stock de 40%.",
-                                    "Développé des <strong>APIs RESTful utilisant Spring Boot</strong> facilitant la communication fluide frontend-backend.",
-                                    "Conçu et implémenté une <strong>architecture de microservices</strong> améliorant la scalabilité et la maintenabilité de l'application.",
-                                    "Exploité <strong>Hibernate et JPA</strong> pour un accès efficace aux données avec bases de données MySQL et PostgreSQL.",
-                                    "Créé des composants UI responsifs utilisant <strong>Angular et Bootstrap</strong> assurant la compatibilité inter-navigateurs.",
-                                    "Développé et maintenu des <strong>pipelines CI/CD utilisant Jenkins</strong> réduisant significativement le temps de déploiement.",
-                                    "Utilisé les <strong>services AWS</strong> (EC2, S3, RDS) pour hébergement scalable et stockage sécurisé des données.",
-                                    "Implémenté un <strong>mécanisme de cache utilisant Redis</strong> améliorant les performances de l'application et réduisant les temps de chargement."
+                                    "Développé et maintenu des <strong>services backend hautement évolutifs</strong> pour Optus mobile, servant plus de 11 millions d'utilisateurs, utilisant Java, Spring Boot et l'architecture de microservices.",
+                                    "Optimisé les <strong>performances de détection de fraude</strong>, remplaçant les appels API synchrones par un traitement basé sur les événements Kafka, réduisant les délais d'alerte de fraude de 15%.",
+                                    "Architecturé un <strong>système résilient basé sur les microservices</strong> avec Docker, Kubernetes et pipeline CI/CD Jenkins, conduisant à une amélioration de 80% du temps de fonctionnement du système.",
+                                    "Conçu et implémenté des <strong>APIs RESTful</strong> pour faciliter l'intégration transparente de services tiers et les déploiements de nouvelles fonctionnalités.",
+                                    "Implémenté <strong>OAuth 2 pour l'authentification sécurisée des utilisateurs</strong> et l'autorisation, augmentant les standards de sécurité de l'industrie de 60%.",
+                                    "Dirigé la <strong>migration des bases de données</strong>, réalisant une optimisation remarquable de 30% dans le stockage et la récupération de données pour des cas d'usage spécifiques.",
+                                    "Implémenté le <strong>protocole gRPC</strong> pour gérer plus efficacement les collections de big data et la communication en temps réel.",
+                                    "Intégré le <strong>pooling de connexions utilisant HikariCP</strong> pour gérer les connexions de base de données résolvant les problèmes critiques de production.",
+                                    "Réduit les coûts de déploiement de <strong>$2K/mois</strong> grâce aux microservices conteneurisés et optimisations d'auto-scaling.",
+                                    "Optimisé les <strong>requêtes MongoDB</strong> en implémentant des index composés, le réglage de requêtes et le sharding, réduisant le temps d'exécution de 5-7 secondes à 2-3 secondes."
                                 ]
                             },
-                            "province": "Pune",
+                            "province": "Bangalore",
                             "country": "Inde",
-                            "institution": "Zensar Technologies",
-                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "Passerelles de Paiement", "Microservices", "E-commerce"]
+                            "institution": "Subex Limited",
+                            "tags": ["Java", "Spring Boot", "Kafka", "Docker", "Kubernetes", "OAuth 2", "gRPC", "MongoDB", "Détection de Fraude", "Microservices"]
                         },
 
                         "zh": {
-                            "title": "Java全栈开发工程师",
-                            "description": "使用Java、Spring Boot和现代Web技术开发和维护<strong>电商平台</strong>和<strong>企业应用程序</strong>。领导支付网关集成、库存管理系统优化和强大微服务架构实施的举措。",
+                            "title": "软件开发工程师",
+                            "description": "使用Java、Spring Boot和微服务架构为<strong>Optus移动</strong>开发和维护<strong>高度可扩展的后端服务</strong>，服务超过1100万用户。领导优化欺诈检测系统、实施事件驱动处理和架构弹性微服务解决方案的举措。",
                             "list": {
                                 "title": "主要成就",
                                 "items": [
-                                    "主导集成<strong>多个支付网关</strong>（Razorpay、Paytm、Stripe），成功交易率提高25%。",
-                                    "设计了强大的<strong>产品目录和库存管理系统</strong>，将库存差异减少40%。",
-                                    "使用Spring Boot开发<strong>RESTful API</strong>，促进前后端无缝通信。",
-                                    "设计并实施<strong>微服务架构</strong>，提高应用程序的可扩展性和可维护性。",
-                                    "利用<strong>Hibernate和JPA</strong>与MySQL和PostgreSQL数据库进行高效数据访问。",
-                                    "使用<strong>Angular和Bootstrap</strong>制作响应式UI组件，确保跨浏览器兼容性。",
-                                    "使用Jenkins开发和维护<strong>CI/CD管道</strong>，显著减少部署时间。",
-                                    "利用<strong>AWS服务</strong>（EC2、S3、RDS）进行可扩展托管和安全数据存储。",
-                                    "使用Redis实施<strong>缓存机制</strong>，提高应用程序性能并减少加载时间。"
+                                    "使用Java、Spring Boot和微服务架构为Optus移动开发和维护<strong>高度可扩展的后端服务</strong>，服务超过1100万用户。",
+                                    "优化<strong>欺诈检测性能</strong>，用基于Kafka的事件驱动处理替代同步API调用，将欺诈警报延迟减少15%。",
+                                    "使用Docker、Kubernetes和Jenkins CI/CD管道架构<strong>弹性微服务系统</strong>，系统正常运行时间提高80%。",
+                                    "设计并实施<strong>RESTful API</strong>以促进第三方服务的无缝集成和新功能发布。",
+                                    "实施<strong>OAuth 2安全用户身份验证</strong>和授权，将行业安全标准提高60%。",
+                                    "领导<strong>数据库迁移</strong>，在特定用例中实现数据存储和检索30%的显著优化。",
+                                    "实施<strong>gRPC协议</strong>以更有效地处理大数据集合和实时通信。",
+                                    "使用HikariCP集成<strong>连接池</strong>来管理数据库连接，解决关键生产问题。",
+                                    "通过容器化微服务和自动扩展优化将部署成本削减<strong>每月$2K</strong>。",
+                                    "通过实施复合索引、查询调优和分片优化<strong>MongoDB查询</strong>，将执行时间从5-7秒减少到2-3秒。"
                                 ]
                             },
-                            "province": "浦那",
+                            "province": "班加罗尔",
                             "country": "印度",
-                            "institution": "Zensar Technologies",
-                            "tags": ["Java", "Spring Boot", "Angular", "AWS", "Redis", "支付网关", "微服务", "电子商务"]
+                            "institution": "Subex Limited",
+                            "tags": ["Java", "Spring Boot", "Kafka", "Docker", "Kubernetes", "OAuth 2", "gRPC", "MongoDB", "欺诈检测", "微服务"]
                         }
                     }
                 }
