@@ -5,23 +5,23 @@
     "locales": {
         "en": {
             "credits": "Designed by <strong><a href='https://github.com/Utsavrawar27'>Utsav Rawat</a></strong>",
-            "role": "Software Developer"
+            "role": "Data Engineer"
         },
 
         "es": {
             "credits": "Hecho por <strong><a href='https://github.com/Utsavrawar27'>Utsav Rawat</a></strong>",
-            "role": "Desarrollador de software"
+            "role": "Ingeniero de Datos"
         },
 
         "fr": {
             "credits": "Conçu par <strong><a href='https://github.com/Utsavrawar27'>Utsav Rawat</a></strong>",
-            "role": "Développeur logiciel"
+            "role": "Ingénieur de Données"
         },
 
         "zh": {
             "name": "罗伊谢帕德",
             "credits": "设计：<strong><a href='https://github.com/Utsavrawar27'>Utsav Rawat</a></strong>",
-            "role": "软件开发工程师"
+            "role": "数据工程师"
         }
     },
 
