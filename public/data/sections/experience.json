@@ -11,106 +11,190 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2023, "month": 7},
-                    "dateEnd": {"year": 2025, "month": 5},
-                    "img": "images/places/logo-morgan-stanley.jpg",
-                    "fallbackFaIcon": "fa-solid fa-building",
-                    "fallbackFaIconColor": "#0052CC",
+                    "dateStart": {"year": 2025, "month": 6},
+                    "dateEnd": {"year": 2025, "month": 9},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#007BFF",
 
                     "locales": {
                         "en": {
-                            "title": "Full Stack Java Developer",
-                            "description": "Developing high-performance <strong>financial systems</strong> and <strong>trading platforms</strong> using modern Java technologies and cloud infrastructure. Leading initiatives to enhance trade settlement processes, improve service availability, and optimize data retrieval systems for banking operations.",
+                            "title": "Software Developer – Data",
+                            "description": "Building scalable <strong>data infrastructure</strong> on AWS, leveraging services like S3, Lambda, Glue, and Snowflake for efficient ingestion, transformation, and storage of multi-source data at scale.",
                             "list": {
                                 "title": "Key Achievements",
                                 "items": [
-                                    "Reduced trade settlement time by <strong>40%</strong> by engineering event-driven architecture using Apache Kafka and gRPC.",
-                                    "Achieved <strong>99% service availability</strong> by containerizing Spring Boot microservices on Azure Kubernetes Service.",
-                                    "Enhanced financial data retrieval speed by <strong>60%</strong> implementing GraphQL APIs with Redis caching.",
-                                    "Built secure microservices supporting <strong>KYC, AML, and loan approval</strong> processes with OAuth2.0/JWT authentication.",
-                                    "Leveraged Java 21 features including <strong>virtual threads and pattern matching</strong> for high-concurrency processing.",
-                                    "Achieved <strong>90%+ test coverage</strong> using JUnit 5, Mockito, and Cucumber (BDD) frameworks.",
-                                    "Ensured <strong>PCI-DSS, SOX, and GDPR compliance</strong> with encryption standards and audit trails."
+                                    "Built data infrastructure on AWS, leveraging services like S3, Lambda, Glue, and Snowflake for efficient ingestion, transformation, and storage of multi-source data at scale.",
+                                    "Designed and orchestrated scalable ETL pipelines using PySpark to process JSON snapshots from S3 into partitioned datasets, seamlessly integrated with Snowflake external tables for optimized querying and automated partition management.",
+                                    "Contributed to scheduling hourly Airflow DAGs for reliable data processing.",
+                                    "Automated ingestion and processing of irregular partner audit CSVs, eliminating manual effort and enabling real-time compliance monitoring with Slack alerts and always up-to-date dashboards for rapid risk triage."
                                 ]
                             },
-                            "province": "California",
+                            "province": "Remote",
                             "country": "US",
-                            "institution": "Morgan Stanley",
-                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservices", "Financial Systems"]
+                            "institution": "Open It Labs llc",
+                            "tags": ["AWS", "S3", "Lambda", "Glue", "Snowflake", "PySpark", "ETL", "Airflow", "Data Infrastructure"]
                         },
 
                         "es": {
-                            "title": "Desarrollador Full Stack Java",
-                            "description": "Desarrollando sistemas financieros de <strong>alto rendimiento</strong> y <strong>plataformas de trading</strong> utilizando tecnologías Java modernas e infraestructura en la nube. Liderando iniciativas para mejorar los procesos de liquidación de operaciones, mejorar la disponibilidad de servicios y optimizar los sistemas de recuperación de datos para operaciones bancarias.",
+                            "title": "Desarrollador de Software – Datos",
+                            "description": "Construyendo <strong>infraestructura de datos escalable</strong> en AWS, aprovechando servicios como S3, Lambda, Glue y Snowflake para la ingesta, transformación y almacenamiento eficiente de datos multi-fuente a escala.",
                             "list": {
                                 "title": "Logros Clave",
                                 "items": [
-                                    "Reduje el tiempo de liquidación de operaciones en un <strong>40%</strong> diseñando arquitectura impulsada por eventos con Apache Kafka y gRPC.",
-                                    "Logré <strong>99% de disponibilidad de servicio</strong> contenerizando microservicios Spring Boot en Azure Kubernetes Service.",
-                                    "Mejoré la velocidad de recuperación de datos financieros en un <strong>60%</strong> implementando APIs GraphQL con caché Redis.",
-                                    "Construí microservicios seguros que soportan procesos de <strong>KYC, AML y aprobación de préstamos</strong> con autenticación OAuth2.0/JWT.",
-                                    "Aproveché las características de Java 21 incluyendo <strong>hilos virtuales y coincidencia de patrones</strong> para procesamiento de alta concurrencia.",
-                                    "Logré <strong>más del 90% de cobertura de pruebas</strong> usando frameworks JUnit 5, Mockito y Cucumber (BDD).",
-                                    "Aseguré el cumplimiento de <strong>PCI-DSS, SOX y GDPR</strong> con estándares de encriptación y pistas de auditoría."
+                                    "Construí infraestructura de datos en AWS, aprovechando servicios como S3, Lambda, Glue y Snowflake para la ingesta, transformación y almacenamiento eficiente de datos multi-fuente a escala.",
+                                    "Diseñé y orquesté pipelines ETL escalables usando PySpark para procesar instantáneas JSON desde S3 en conjuntos de datos particionados, integrados perfectamente con tablas externas de Snowflake para consultas optimizadas y gestión automatizada de particiones.",
+                                    "Contribuí a la programación de DAGs de Airflow por hora para procesamiento confiable de datos.",
+                                    "Automaticé la ingesta y procesamiento de CSVs de auditoría de socios irregulares, eliminando esfuerzo manual y habilitando monitoreo de cumplimiento en tiempo real con alertas de Slack y dashboards siempre actualizados para triage rápido de riesgos."
                                 ]
                             },
-                            "province": "California",
+                            "province": "Remoto",
                             "country": "EE. UU.",
-                            "institution": "Morgan Stanley",
-                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservicios", "Sistemas Financieros"]
+                            "institution": "Open It Labs llc",
+                            "tags": ["AWS", "S3", "Lambda", "Glue", "Snowflake", "PySpark", "ETL", "Airflow", "Infraestructura de Datos"]
                         },
 
                         "fr": {
-                            "title": "Développeur Full Stack Java",
-                            "description": "Développement de <strong>systèmes financiers haute performance</strong> et de <strong>plateformes de trading</strong> utilisant des technologies Java modernes et une infrastructure cloud. Direction d'initiatives pour améliorer les processus de règlement des transactions, améliorer la disponibilité des services et optimiser les systèmes de récupération de données pour les opérations bancaires.",
+                            "title": "Développeur Logiciel – Données",
+                            "description": "Construction d'une <strong>infrastructure de données évolutive</strong> sur AWS, exploitant des services comme S3, Lambda, Glue et Snowflake pour l'ingestion, la transformation et le stockage efficaces de données multi-sources à grande échelle.",
                             "list": {
                                 "title": "Réalisations Clés",
                                 "items": [
-                                    "Réduit le temps de règlement des transactions de <strong>40%</strong> en concevant une architecture pilotée par les événements avec Apache Kafka et gRPC.",
-                                    "Atteint <strong>99% de disponibilité de service</strong> en conteneurisant les microservices Spring Boot sur Azure Kubernetes Service.",
-                                    "Amélioré la vitesse de récupération des données financières de <strong>60%</strong> en implémentant des APIs GraphQL avec cache Redis.",
-                                    "Construit des microservices sécurisés supportant les processus <strong>KYC, AML et approbation de prêts</strong> avec authentification OAuth2.0/JWT.",
-                                    "Exploité les fonctionnalités Java 21 incluant <strong>les threads virtuels et la correspondance de motifs</strong> pour le traitement haute concurrence.",
-                                    "Atteint <strong>plus de 90% de couverture de tests</strong> utilisant les frameworks JUnit 5, Mockito et Cucumber (BDD).",
-                                    "Assuré la conformité <strong>PCI-DSS, SOX et GDPR</strong> avec standards de chiffrement et pistes d'audit."
+                                    "Construit une infrastructure de données sur AWS, exploitant des services comme S3, Lambda, Glue et Snowflake pour l'ingestion, la transformation et le stockage efficaces de données multi-sources à grande échelle.",
+                                    "Conçu et orchestré des pipelines ETL évolutifs utilisant PySpark pour traiter des instantanés JSON depuis S3 en ensembles de données partitionnés, intégrés de manière transparente avec des tables externes Snowflake pour des requêtes optimisées et une gestion automatisée des partitions.",
+                                    "Contribué à la planification de DAGs Airflow horaires pour un traitement fiable des données.",
+                                    "Automatisé l'ingestion et le traitement de CSVs d'audit de partenaires irréguliers, éliminant l'effort manuel et permettant une surveillance de conformité en temps réel avec des alertes Slack et des tableaux de bord toujours à jour pour un triage rapide des risques."
                                 ]
                             },
-                            "province": "Californie",
+                            "province": "Distant",
                             "country": "États-Unis",
-                            "institution": "Morgan Stanley",
-                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "Microservices", "Systèmes Financiers"]
+                            "institution": "Open It Labs llc",
+                            "tags": ["AWS", "S3", "Lambda", "Glue", "Snowflake", "PySpark", "ETL", "Airflow", "Infrastructure de Données"]
                         },
 
                         "zh": {
-                            "title": "Java全栈开发工程师",
-                            "description": "使用现代Java技术和云基础设施开发<strong>高性能金融系统</strong>和<strong>交易平台</strong>。领导改进交易结算流程、提高服务可用性和优化银行业务数据检索系统的举措。",
+                            "title": "软件开发者 – 数据",
+                            "description": "在AWS上构建可扩展的<strong>数据基础设施</strong>，利用S3、Lambda、Glue和Snowflake等服务，高效地摄取、转换和存储多源数据。",
                             "list": {
                                 "title": "主要成就",
                                 "items": [
-                                    "通过使用Apache Kafka和gRPC设计事件驱动架构，将交易结算时间减少了<strong>40%</strong>。",
-                                    "通过在Azure Kubernetes Service上容器化Spring Boot微服务，实现了<strong>99%的服务可用性</strong>。",
-                                    "通过实施带Redis缓存的GraphQL API，将金融数据检索速度提高了<strong>60%</strong>。",
-                                    "构建了支持<strong>KYC、AML和贷款审批</strong>流程的安全微服务，使用OAuth2.0/JWT认证。",
-                                    "利用Java 21特性，包括<strong>虚拟线程和模式匹配</strong>进行高并发处理。",
-                                    "使用JUnit 5、Mockito和Cucumber（BDD）框架实现了<strong>90%以上的测试覆盖率</strong>。",
-                                    "通过加密标准和审计跟踪确保<strong>PCI-DSS、SOX和GDPR合规性</strong>。"
+                                    "在AWS上构建数据基础设施，利用S3、Lambda、Glue和Snowflake等服务，高效地摄取、转换和存储多源数据。",
+                                    "使用PySpark设计和编排可扩展的ETL管道，将S3中的JSON快照处理为分区数据集，与Snowflake外部表无缝集成，实现优化的查询和自动化分区管理。",
+                                    "参与调度每小时Airflow DAG，实现可靠的数据处理。",
+                                    "自动化不规则合作伙伴审计CSV的摄取和处理，消除手动工作，通过Slack警报和始终更新的仪表板实现实时合规监控，快速进行风险分类。"
                                 ]
                             },
-                            "province": "加利福尼亚州",
+                            "province": "远程",
                             "country": "美国",
-                            "institution": "Morgan Stanley",
-                            "tags": ["Java 21", "Spring Boot 3.x", "Apache Kafka", "Azure AKS", "GraphQL", "React.js", "微服务", "金融系统"]
+                            "institution": "Open It Labs llc",
+                            "tags": ["AWS", "S3", "Lambda", "Glue", "Snowflake", "PySpark", "ETL", "Airflow", "数据基础设施"]
                         }
                     }
                 },
 
                 {
                     "id": 2,
+                    "dateStart": {"year": 2024, "month": 9},
+                    "dateEnd": {"year": 2025, "month": 6},
+                    "img": "images/places/SJSU.jpg",
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "fallbackFaIconColor": "#0055A4",
+
+                    "locales": {
+                        "en": {
+                            "title": "Research Assistant – Task Atlas AI",
+                            "description": "Designed and implemented a scalable <strong>full stack web application</strong> to analyze task level automation susceptibility across occupations, leveraging structured labor datasets and AI risk models.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Designed and implemented a scalable full stack web application to analyze task level automation susceptibility across occupations, leveraging structured labor datasets and AI risk models.",
+                                    "Developed a microservices-based backend architecture in Django Python integrating OpenAI API to score tasks on AI replaceability based on dimensions like cognitive complexity, required skills, and routine level.",
+                                    "Engineered ETL pipelines to ingest, clean, and normalize large occupational datasets, and stored them in a relational PostgreSQL database with optimized indexing and partitioning for analytical performance.",
+                                    "Structured and populated a relational database to store professions, tasks, skills, and AI replacement metrics, ensuring efficient data retrieval and scalability.",
+                                    "Defined and implemented data models and schemas to support task-profession relationships, AI risk metrics, and classification categories, ensuring data consistency and normalization across entities.",
+                                    "Focused on user experience and system performance, ensuring the platform is both intuitive and robust for analytical exploration.",
+                                    "Delivered technical documentation and deployment automation scripts Docker and CI/CD pipelines to support reproducibility and scalability across academic and enterprise use cases."
+                                ]
+                            },
+                            "province": "San Jose, California",
+                            "country": "US",
+                            "institution": "San Jose State University",
+                            "tags": ["Python", "Django", "PostgreSQL", "ETL", "OpenAI API", "Full Stack", "Docker", "CI/CD", "Data Modeling"]
+                        },
+
+                        "es": {
+                            "title": "Asistente de Investigación – Task Atlas AI",
+                            "description": "Diseñé e implementé una <strong>aplicación web full stack escalable</strong> para analizar la susceptibilidad de automatización a nivel de tareas en diferentes ocupaciones, aprovechando conjuntos de datos laborales estructurados y modelos de riesgo de IA.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Diseñé e implementé una aplicación web full stack escalable para analizar la susceptibilidad de automatización a nivel de tareas en diferentes ocupaciones, aprovechando conjuntos de datos laborales estructurados y modelos de riesgo de IA.",
+                                    "Desarrollé una arquitectura backend basada en microservicios en Django Python integrando la API de OpenAI para puntuar tareas en reemplazabilidad por IA basado en dimensiones como complejidad cognitiva, habilidades requeridas y nivel de rutina.",
+                                    "Ingeniericé pipelines ETL para ingerir, limpiar y normalizar grandes conjuntos de datos ocupacionales, y los almacené en una base de datos relacional PostgreSQL con indexación y particionamiento optimizados para rendimiento analítico.",
+                                    "Estructuré y poblé una base de datos relacional para almacenar profesiones, tareas, habilidades y métricas de reemplazo por IA, asegurando recuperación eficiente de datos y escalabilidad.",
+                                    "Definí e implementé modelos y esquemas de datos para soportar relaciones tarea-profesión, métricas de riesgo de IA y categorías de clasificación, asegurando consistencia de datos y normalización entre entidades.",
+                                    "Me enfoqué en la experiencia del usuario y el rendimiento del sistema, asegurando que la plataforma sea tanto intuitiva como robusta para exploración analítica.",
+                                    "Entregué documentación técnica y scripts de automatización de despliegue Docker y pipelines CI/CD para soportar reproducibilidad y escalabilidad en casos de uso académicos y empresariales."
+                                ]
+                            },
+                            "province": "San Jose, California",
+                            "country": "EE. UU.",
+                            "institution": "San Jose State University",
+                            "tags": ["Python", "Django", "PostgreSQL", "ETL", "API OpenAI", "Full Stack", "Docker", "CI/CD", "Modelado de Datos"]
+                        },
+
+                        "fr": {
+                            "title": "Assistant de Recherche – Task Atlas AI",
+                            "description": "Conçu et implémenté une <strong>application web full stack évolutive</strong> pour analyser la susceptibilité d'automatisation au niveau des tâches à travers les professions, exploitant des ensembles de données de travail structurés et des modèles de risque IA.",
+                            "list": {
+                                "title": "Réalisations Clés",
+                                "items": [
+                                    "Conçu et implémenté une application web full stack évolutive pour analyser la susceptibilité d'automatisation au niveau des tâches à travers les professions, exploitant des ensembles de données de travail structurés et des modèles de risque IA.",
+                                    "Développé une architecture backend basée sur les microservices en Django Python intégrant l'API OpenAI pour noter les tâches sur la remplaçabilité par IA basée sur des dimensions comme la complexité cognitive, les compétences requises et le niveau de routine.",
+                                    "Ingéniéré des pipelines ETL pour ingérer, nettoyer et normaliser de grands ensembles de données professionnelles, et les stockés dans une base de données relationnelle PostgreSQL avec indexation et partitionnement optimisés pour les performances analytiques.",
+                                    "Structuré et peuplé une base de données relationnelle pour stocker les professions, tâches, compétences et métriques de remplacement IA, assurant une récupération efficace des données et l'évolutivité.",
+                                    "Défini et implémenté des modèles et schémas de données pour supporter les relations tâche-profession, métriques de risque IA et catégories de classification, assurant la cohérence des données et la normalisation entre entités.",
+                                    "Concentré sur l'expérience utilisateur et les performances du système, assurant que la plateforme est à la fois intuitive et robuste pour l'exploration analytique.",
+                                    "Livré une documentation technique et des scripts d'automatisation de déploiement Docker et pipelines CI/CD pour supporter la reproductibilité et l'évolutivité dans les cas d'usage académiques et d'entreprise."
+                                ]
+                            },
+                            "province": "San Jose, Californie",
+                            "country": "États-Unis",
+                            "institution": "San Jose State University",
+                            "tags": ["Python", "Django", "PostgreSQL", "ETL", "API OpenAI", "Full Stack", "Docker", "CI/CD", "Modélisation de Données"]
+                        },
+
+                        "zh": {
+                            "title": "研究助理 – Task Atlas AI",
+                            "description": "设计并实现了一个可扩展的<strong>全栈Web应用程序</strong>，用于分析跨职业的任务级自动化易感性，利用结构化劳动力数据集和AI风险模型。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "设计并实现了一个可扩展的全栈Web应用程序，用于分析跨职业的任务级自动化易感性，利用结构化劳动力数据集和AI风险模型。",
+                                    "在Django Python中开发了基于微服务的后端架构，集成OpenAI API，根据认知复杂性、所需技能和常规水平等维度对任务的AI可替代性进行评分。",
+                                    "设计了ETL管道来摄取、清理和规范化大型职业数据集，并将它们存储在关系型PostgreSQL数据库中，具有优化的索引和分区以提高分析性能。",
+                                    "构建并填充了关系数据库以存储职业、任务、技能和AI替代指标，确保高效的数据检索和可扩展性。",
+                                    "定义并实现了数据模型和模式，以支持任务-职业关系、AI风险指标和分类类别，确保跨实体的数据一致性和规范化。",
+                                    "专注于用户体验和系统性能，确保平台既直观又强大，适合分析探索。",
+                                    "交付了技术文档和部署自动化脚本Docker和CI/CD管道，以支持学术和企业用例的可重现性和可扩展性。"
+                                ]
+                            },
+                            "province": "加利福尼亚州圣何塞",
+                            "country": "美国",
+                            "institution": "San Jose State University",
+                            "tags": ["Python", "Django", "PostgreSQL", "ETL", "OpenAI API", "全栈", "Docker", "CI/CD", "数据建模"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
                     "dateStart": {"year": 2019, "month": 8},
                     "dateEnd": {"year": 2022, "month": 6},
                     "img": "images/places/Subex-logo.png",
                     "fallbackFaIcon": "fa-solid fa-code",
                     "fallbackFaIconColor": "#FF6B35",
+
 
                     "locales": {
                         "en": {

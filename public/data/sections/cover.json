@@ -15,19 +15,19 @@
                     "id": 1,
                     "locales": {
                         "en": {
-                            "description": "I’m a Java Full Stack Developer with <strong>5 years</strong>, of experience building applications that power financial systems and e-commerce platforms, always with a focus on clean code, thoughtful design, and seamless user experiences. I'm a quick learner and always looking for new challenges to grow my skills."
+                            "description": "I am an experienced Software Data Engineer with <strong>4 years</strong> of expertise in designing and building scalable data infrastructure, cloud native ETL pipelines, and AI powered analytics solutions. Adept in AWS, and Azure ecosystems, with hands on experience in technologies like PySpark, Snowflake, Kafka, Airflow, and DBT. I am a quick learner and always looking for new challenges to grow my skills."
                         },
 
                         "es": {
-                            "description": "Soy un desarrollador Full Stack Java con más de <strong>5 años</strong>, de experiencia creando aplicaciones que impulsan sistemas financieros y plataformas de comercio electrónico, siempre enfocado en escribir código limpio, diseñar con intención y ofrecer experiencias de usuario fluidas. Aprendo rápido y siempre estoy buscando nuevos desafíos para seguir creciendo profesionalmente."
+                            "description": "Soy un Ingeniero de Datos de Software experimentado con <strong>4 años</strong> de experiencia en el diseño y construcción de infraestructura de datos escalable, pipelines ETL nativos de la nube y soluciones de análisis impulsadas por IA. Experto en ecosistemas AWS y Azure, con experiencia práctica en tecnologías como PySpark, Snowflake, Kafka, Airflow y DBT. Aprendo rápido y siempre estoy buscando nuevos desafíos para desarrollar mis habilidades."
                         },
 
                         "fr": {
-                            "description": "Je suis développeur Full Stack Java avec plus de <strong>5 ans</strong>, d’expérience dans la création d’applications pour les systèmes financiers et les plateformes e-commerce, en mettant toujours l’accent sur un code propre, un design réfléchi et une expérience utilisateur fluide. J'apprends vite et je suis toujours à la recherche de nouveaux défis pour développer mes compétences."
+                            "description": "Je suis un Ingénieur de Données Logiciel expérimenté avec <strong>4 ans</strong> d'expertise dans la conception et la construction d'infrastructures de données évolutives, de pipelines ETL natifs du cloud et de solutions d'analyse alimentées par l'IA. Compétent dans les écosystèmes AWS et Azure, avec une expérience pratique dans des technologies comme PySpark, Snowflake, Kafka, Airflow et DBT. J'apprends vite et je suis toujours à la recherche de nouveaux défis pour développer mes compétences."
                         },
 
                         "zh": {
-                            "description": "我是一名拥有<strong>5</strong>年以上经验的 Java 全栈开发工程师，专注于构建支持金融系统和电商平台的应用程序，始终致力于编写简洁的代码、精心设计和流畅的用户体验。我学习能力强，喜欢迎接新挑战，不断提升自己的技能"
+                            "description": "我是一名经验丰富的软件数据工程师，拥有<strong>4年</strong>的专业经验，专注于设计和构建可扩展的数据基础设施、云原生ETL管道和AI驱动的分析解决方案。精通AWS和Azure生态系统，在PySpark、Snowflake、Kafka、Airflow和DBT等技术方面具有实践经验。我学习能力强，始终寻找新挑战以提升技能。"
                         }
                     }
                 },

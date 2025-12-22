@@ -32,27 +32,27 @@
             "href": null,
             "locales": {
                 "en": {
-                    "value": "738 Menker Avenue, San Jose, CA 95128",
-                    "valueShort": "San Jose – CA"
+                    "value": "Whitefield, Bangalore, Karnataka, India",
+                    "valueShort": "Bangalore – Karnataka"
                 },
                 "es": {
-                    "valueShort": "California – EE.UU."
+                    "valueShort": "Bangalore – Karnataka"
                 },
                 "fr": {
                     "valueShort": "Californie – États-Unis"
                 },
                 "zh": {
-                    "valueShort": "美国加州"
+                    "valueShort": "Bangalore – Karnataka"
                 }
             }
         },
 
         {
             "id": "email",
-            "value": "utsavrawat271998@gmail.com",
-            "valueShort": "utsavrawat271998@gmail.com",
+            "value": "utrawat27@gmail.com",
+            "valueShort": "utrawat27@gmail.com",
             "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:utsavrawat271998@gmail.com"
+            "href": "mailto:utrawat27@gmail.com"
         },
 
 
@@ -83,10 +83,10 @@
 
         {
             "id": "phone",
-            "value": "+1 (669) 278-9608",
-            "valueShort": "(669) 278-9608",
+            "value": "+91 (740) 987-5633",
+            "valueShort": "+91 (740) 987-5633",
             "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:6692789608"
+            "href": "tel:7409875633"
         }
     ]
 }
